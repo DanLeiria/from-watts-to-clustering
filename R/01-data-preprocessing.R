@@ -25,8 +25,9 @@
 cat("\014")
 rm(list = ls())
 
-# Call library
+# Call project libraries and settings
 source("R/00-library.R")
+source("R/00-settings.R")
 
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
