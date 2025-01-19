@@ -1,0 +1,25 @@
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# HEADER ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Author:       Daniel Leiria
+# Copyright     Copyright 2025 - Daniel Leiria
+# Email:        daniel.h.leiria@gmail.com
+
+# Date:         2025-01-19
+
+# Script name:  00-settings.R
+# R version:    4.4.1
+ 
+# Script Description:
+# Settings used in the project
+
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Silhouette / Clustering ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Seed used to replicate results
+seed_value <- 314
+# Clusters interval to be used in the silhouette score assessment
+clusters_interval <- 2:20L
