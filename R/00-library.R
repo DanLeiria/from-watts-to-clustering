@@ -56,7 +56,13 @@ required_libraries <- c(
   "tidygeocoder",
   
   # Code processing timer
-  "tictoc"
+  "tictoc",
+  
+  # Time series clustering algorithms
+  "dtwclust",
+  
+  # Convert the dataframe into a matrix
+  "reshape2"
 ) 
 
 # Install missing libraries automatically
