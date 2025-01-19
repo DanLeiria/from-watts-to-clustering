@@ -23,3 +23,14 @@
 seed_value <- 314
 # Clusters interval to be used in the silhouette score assessment
 clusters_interval <- 2:20L
+
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Outliers ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Beta value used in Calikus et al.
+beta_val_calikus <- 3
+# SBD threshold for outlier assignment applied in the final solution
+sbd_limit_used <- 0.15
+
