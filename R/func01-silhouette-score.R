@@ -69,7 +69,7 @@ silh_score <- function(matrix_input,
   # Create silhouette score plot
   ggplot_silh <- ggplot(silh_results, aes(x = nr_cluster, y = value)) +
     geom_point(color = "royalblue3", size = 3) +
-    geom_line(color = "royalblue3", size = 1) +
+    geom_line(color = "royalblue3", linewidth = 1) +
     theme_classic() +
     labs(x = "Number of clusters",
          y = "Silhouette score") +
@@ -80,7 +80,7 @@ silh_score <- function(matrix_input,
                                         y = -Inf,
                                         yend = sil_max),
                  color = "red",
-                 size = 1,
+                 linewidth = 1,
                  linetype = "dashed") +
     annotate("text", x = segment_df$nr_cluster_max, y = segment_df$sil_max, label = paste("Score:", round(segment_df$sil_max, digits = 3)),
              vjust = -1.2, hjust = 0.2, color = "red") +
