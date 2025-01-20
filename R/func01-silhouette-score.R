@@ -13,16 +13,9 @@
  
 # Script Description:
 # Function to assess and plot the silhouette scores
-
-
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# WRITE HERE YOUR CHAPTER ----
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-# Description:
-# Applying cvi methods into matrix, in order to find optimal number of clusters.
-# In this work, I selected to use inertia and silhouette methods.
-# Plot and save the results.
+# Applying cvi methods into matrix, in order to find optimal number of clusters
+# In this work, I selected to use the silhouette score method
+# Plot and save the results
 
 silh_score <- function(matrix_input,
                        clusters_interval,
@@ -30,7 +23,7 @@ silh_score <- function(matrix_input,
                        figure_name) {
   
   ### Inputs:
-  #           matrix_input: Dataset to be clusters as a matrix
+  #           matrix_input: Dataset to be clustered as a matrix
   #           clusters_interval: Interval to test the silhouette score
   #           seed_value: Seed number for replication
   #           figure_name: Name to save the final plot
@@ -98,14 +91,3 @@ silh_score <- function(matrix_input,
   return(ggplot_silh)
   
 }
-
-
-
-
-
-
-
-
-
-ggsave(filename = "figures/ggplot_silh_initial.png", plot = ggplot_silh_initial, width = 8, height = 6, dpi = 300)
-
