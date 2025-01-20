@@ -296,10 +296,10 @@ df_electricity <- df_electricity %>%
 
 
 df_industry <- df_postcodes_cleaned %>% left_join(df_original_industry, by = "county")
-df_industry_normalized <- df_postcodes %>% left_join(df_original_industry_normalized, by = "county")
+# df_industry_normalized <- df_postcodes %>% left_join(df_original_industry_normalized, by = "county")
 
 df_consumption_type <- df_postcodes %>% left_join(df_original_consumption_type, by = "county")
-df_consumption_type_normalized <- df_postcodes %>% left_join(df_original_consumption_type_normalized, by = "county")
+# df_consumption_type_normalized <- df_postcodes %>% left_join(df_original_consumption_type_normalized, by = "county")
 
 df_purchasing_power <- df_postcodes %>% left_join(df_original_purchasing_power, by = "county")
 
