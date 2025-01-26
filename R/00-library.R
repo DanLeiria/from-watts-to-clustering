@@ -46,14 +46,20 @@ required_libraries <- c(
   # Code profiling
   "profvis",
   
-  # Read Excel files
-  "readxl",
+  # Read files
+  "readxl", "readr",
   
-  # Read other types of files
-  "readr",
+  # Grid plots
+  "gridExtra",
+  
+  # Plot improvements
+  "ggrepel", "viridis",
   
   # For map plots
   "tidygeocoder",
+  
+  # For maps
+  "sf", "maps",
   
   # Code processing timer
   "tictoc",
