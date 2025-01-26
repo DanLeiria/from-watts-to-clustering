@@ -20,7 +20,7 @@
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Seed used to replicate results
-seed_value <- 314
+seed_value <- 333
 # Clusters interval to be used in the silhouette score assessment
 clusters_interval <- 2:20L
 

@@ -17,12 +17,14 @@
 kshape_clustering <- function(matrix_input,
                               nr_clusters,
                               seed_value,
+                              df_postcodes,
                               figure_name) {
   
   ### Inputs:
   #           matrix_input: Dataset to be clustered as a matrix
   #           nr_clusters: Number of selected clusters
   #           seed_value: Seed number for replication
+  #           df_postcodes:
   #           figure_name: Name to save the final plot
   #
   ### Output:
@@ -63,7 +65,7 @@ df_ks_cluster <- data.frame(data = ks_cluster@datalist) %>%
 # Extract sbd distance between postcode time series (measurements) and its cluster centroid
 df_sbd <- data.frame(
   sbd_distance = ks_cluster@cldist,
-  postcodes = unique(df_electricity$postcodes)
+  postcodes = df_postcodes
 )
 
 

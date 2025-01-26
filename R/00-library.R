@@ -4,7 +4,7 @@
 
 # Author:       Daniel Leiria
 # Copyright     Copyright 2025 - Daniel Leiria
-# Email:        daniel.leiria@danfoss.com / daniel.h.leiria@gmail.com
+# Email:        daniel.h.leiria@gmail.com
 
 # Date:         2025-01-19
 
