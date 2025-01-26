@@ -15,10 +15,7 @@ Energy distribution management; Clustering algorithms; Customers segmentation; E
 - Electricity end-users per region (2022): [PORDATA](https://www.pordata.pt/municipios/consumidores+de+energia+eletrica+total+e+por+tipo+de+consumo-18) (file: _elec_energy_by_type_portugal_2022.xlsx_)
 
 Weather data of 2023:
-- Total precipitation in mm: https://www.pordata.pt/portugal/precipitacao+total-1070
-- Maximum air temperature in $\degree\text{C}$: [https://www.pordata.pt/portugal/temperatura+maxima+do+ar-1068](https://www.pordata.pt/portugal/temperatura+maxima+do+ar+no+mes+mais+quente+do+ano+(media+mensal)-1339)
-- Mean air temperature in $\degree\text{C}$: https://www.pordata.pt/portugal/temperatura+media+anual+do+ar-1067
-- Minimum air temperature in $\degree\text{C}$: https://www.pordata.pt/portugal/temperatura+minima+do+ar+no+mes+mais+frio+do+ano+(media+mensal)-1340
+- Mean air temperature in $\degree\text{C} (altitude 2 meters)$: https://power.larc.nasa.gov/data-access-viewer/
 
 ## Methodology:
 FIGURE XXX
