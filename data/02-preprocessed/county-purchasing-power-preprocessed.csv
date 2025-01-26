@@ -1,0 +1,803 @@
+postcodes,district,county,country,district_county,purchasing_power_per_capita
+3750,Aveiro,Águeda,Portugal,Aveiro_Águeda,87.9
+3754,Aveiro,Águeda,Portugal,Aveiro_Águeda,87.9
+3850,Aveiro,Albergaria-a-Velha,Portugal,Aveiro_Albergaria-a-Velha,85.4
+3780,Aveiro,Anadia,Portugal,Aveiro_Anadia,82
+4540,Aveiro,Arouca,Portugal,Aveiro_Arouca,74.3
+3810,Aveiro,Aveiro,Portugal,Aveiro_Aveiro,119.7
+3800,Aveiro,Aveiro,Portugal,Aveiro_Aveiro,119.7
+3804,Aveiro,Aveiro,Portugal,Aveiro_Aveiro,119.7
+3814,Aveiro,Aveiro,Portugal,Aveiro_Aveiro,119.7
+3813,Aveiro,Aveiro,Portugal,Aveiro_Aveiro,119.7
+4550,Aveiro,Castelo de Paiva,Portugal,Aveiro_Castelo de Paiva,70.6
+4500,Aveiro,Espinho,Portugal,Aveiro_Espinho,95.9
+4504,Aveiro,Espinho,Portugal,Aveiro_Espinho,95.9
+3860,Aveiro,Estarreja,Portugal,Aveiro_Estarreja,86.2
+3864,Aveiro,Estarreja,Portugal,Aveiro_Estarreja,86.2
+3870,Aveiro,Murtosa,Portugal,Aveiro_Murtosa,73.1
+3865,Aveiro,Estarreja,Portugal,Aveiro_Estarreja,86.2
+3830,Aveiro,Ílhavo,Portugal,Aveiro_Ílhavo,87.9
+3050,Aveiro,Mealhada,Portugal,Aveiro_Mealhada,88.8
+3054,Aveiro,Mealhada,Portugal,Aveiro_Mealhada,88.8
+3720,Aveiro,Oliveira de Azeméis,Portugal,Aveiro_Oliveira de Azeméis,84.5
+3700,Aveiro,Oliveira de Azeméis,Portugal,Aveiro_Oliveira de Azeméis,84.5
+3770,Aveiro,Oliveira do Bairro,Portugal,Aveiro_Oliveira do Bairro,85.5
+3774,Aveiro,Oliveira do Bairro,Portugal,Aveiro_Oliveira do Bairro,85.5
+3885,Aveiro,Ovar,Portugal,Aveiro_Ovar,89.1
+3880,Aveiro,Ovar,Portugal,Aveiro_Ovar,89.1
+3884,Aveiro,Ovar,Portugal,Aveiro_Ovar,89.1
+4505,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,88.4
+3700,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,88.4
+4525,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,88.4
+4520,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,88.4
+4535,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,88.4
+4500,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,88.4
+3700,Aveiro,São João da Madeira,Portugal,Aveiro_São João da Madeira,116.7
+3701,Aveiro,São João da Madeira,Portugal,Aveiro_São João da Madeira,116.7
+3740,Aveiro,Sever do Vouga,Portugal,Aveiro_Sever do Vouga,80.4
+3744,Aveiro,Sever do Vouga,Portugal,Aveiro_Sever do Vouga,80.4
+3840,Aveiro,Vagos,Portugal,Aveiro_Vagos,79.5
+3730,Aveiro,Vale de Cambra,Portugal,Aveiro_Vale de Cambra,87.8
+3734,Aveiro,Vale de Cambra,Portugal,Aveiro_Vale de Cambra,87.8
+7600,Beja,Aljustrel,Portugal,Beja_Aljustrel,84.2
+7604,Beja,Aljustrel,Portugal,Beja_Aljustrel,84.2
+7700,Beja,Almodôvar,Portugal,Beja_Almodôvar,80.4
+7920,Beja,Alvito,Portugal,Beja_Alvito,72.4
+7924,Beja,Alvito,Portugal,Beja_Alvito,72.4
+7230,Beja,Barrancos,Portugal,Beja_Barrancos,67.2
+7800,Beja,Beja,Portugal,Beja_Beja,101.7
+7801,Beja,Beja,Portugal,Beja_Beja,101.7
+7780,Beja,Castro Verde,Portugal,Beja_Castro Verde,103.5
+7940,Beja,Cuba,Portugal,Beja_Cuba,73.7
+7900,Beja,Ferreira do Alentejo,Portugal,Beja_Ferreira do Alentejo,74.9
+7750,Beja,Mértola,Portugal,Beja_Mértola,68.9
+7754,Beja,Mértola,Portugal,Beja_Mértola,68.9
+7885,Beja,Moura,Portugal,Beja_Moura,76
+7875,Beja,Moura,Portugal,Beja_Moura,76
+7860,Beja,Moura,Portugal,Beja_Moura,76
+7864,Beja,Moura,Portugal,Beja_Moura,76
+7630,Beja,Odemira,Portugal,Beja_Odemira,79.5
+7665,Beja,Odemira,Portugal,Beja_Odemira,79.5
+7645,Beja,Odemira,Portugal,Beja_Odemira,79.5
+7670,Beja,Ourique,Portugal,Beja_Ourique,75.6
+7830,Beja,Serpa,Portugal,Beja_Serpa,74.4
+7960,Beja,Vidigueira,Portugal,Beja_Vidigueira,79.4
+4720,Braga,Amares,Portugal,Braga_Amares,74
+4750,Braga,Barcelos,Portugal,Braga_Barcelos,81.6
+4755,Braga,Barcelos,Portugal,Braga_Barcelos,81.6
+4905,Braga,Barcelos,Portugal,Braga_Barcelos,81.6
+4754,Braga,Barcelos,Portugal,Braga_Barcelos,81.6
+4740,Braga,Barcelos,Portugal,Braga_Barcelos,81.6
+4775,Braga,Barcelos,Portugal,Braga_Barcelos,81.6
+4710,Braga,Braga,Portugal,Braga_Braga,105.4
+4705,Braga,Braga,Portugal,Braga_Braga,105.4
+4709,Braga,Braga,Portugal,Braga_Braga,105.4
+4700,Braga,Braga,Portugal,Braga_Braga,105.4
+4704,Braga,Braga,Portugal,Braga_Braga,105.4
+4714,Braga,Braga,Portugal,Braga_Braga,105.4
+4715,Braga,Braga,Portugal,Braga_Braga,105.4
+4719,Braga,Braga,Portugal,Braga_Braga,105.4
+4860,Braga,Cabeceiras de Basto,Portugal,Braga_Cabeceiras de Basto,69
+4615,Braga,Celorico de Basto,Portugal,Braga_Celorico de Basto,63.3
+4890,Braga,Celorico de Basto,Portugal,Braga_Celorico de Basto,63.3
+4820,Braga,Celorico de Basto,Portugal,Braga_Celorico de Basto,63.3
+4740,Braga,Esposende,Portugal,Braga_Esposende,86.8
+4820,Braga,Fafe,Portugal,Braga_Fafe,76.9
+4824,Braga,Fafe,Portugal,Braga_Fafe,76.9
+4810,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4805,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4765,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4800,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4804,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4809,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4815,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4835,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4815,Braga,Vizela,Portugal,Braga_Vizela,81.4
+4839,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4814,Braga,Guimarães,Portugal,Braga_Guimarães,89.3
+4830,Braga,Póvoa de Lanhoso,Portugal,Braga_Póvoa de Lanhoso,72
+4840,Braga,Terras de Bouro,Portugal,Braga_Terras de Bouro,67.1
+4845,Braga,Terras de Bouro,Portugal,Braga_Terras de Bouro,67.1
+4850,Braga,Vieira do Minho,Portugal,Braga_Vieira do Minho,67.5
+4770,Braga,Vila Nova de Famalicão,Portugal,Braga_Vila Nova de Famalicão,92.1
+4760,Braga,Vila Nova de Famalicão,Portugal,Braga_Vila Nova de Famalicão,92.1
+4775,Braga,Vila Nova de Famalicão,Portugal,Braga_Vila Nova de Famalicão,92.1
+4765,Braga,Vila Nova de Famalicão,Portugal,Braga_Vila Nova de Famalicão,92.1
+4764,Braga,Vila Nova de Famalicão,Portugal,Braga_Vila Nova de Famalicão,92.1
+4763,Braga,Vila Nova de Famalicão,Portugal,Braga_Vila Nova de Famalicão,92.1
+4730,Braga,Vila Verde,Portugal,Braga_Vila Verde,74.2
+4620,Braga,Vizela,Portugal,Braga_Vizela,81.4
+5350,Bragança,Alfândega da Fé,Portugal,Bragança_Alfândega da Fé,68.3
+5300,Bragança,Bragança,Portugal,Bragança_Bragança,95.9
+5301,Bragança,Bragança,Portugal,Bragança_Bragança,95.9
+5140,Bragança,Carrazeda de Ansiães,Portugal,Bragança_Carrazeda de Ansiães,67.9
+5180,Bragança,Freixo de Espada à Cinta,Portugal,Bragança_Freixo de Espada à Cinta,68.3
+5340,Bragança,Macedo de Cavaleiros,Portugal,Bragança_Macedo de Cavaleiros,76.8
+5225,Bragança,Miranda do Douro,Portugal,Bragança_Miranda do Douro,75.2
+5210,Bragança,Miranda do Douro,Portugal,Bragança_Miranda do Douro,75.2
+5370,Bragança,Mirandela,Portugal,Bragança_Mirandela,85.1
+5385,Bragança,Mirandela,Portugal,Bragança_Mirandela,85.1
+5374,Bragança,Mirandela,Portugal,Bragança_Mirandela,85.1
+5200,Bragança,Mogadouro,Portugal,Bragança_Mogadouro,70.5
+5350,Bragança,Mogadouro,Portugal,Bragança_Mogadouro,70.5
+5204,Bragança,Mogadouro,Portugal,Bragança_Mogadouro,70.5
+5160,Bragança,Torre de Moncorvo,Portugal,Bragança_Torre de Moncorvo,68.8
+5164,Bragança,Torre de Moncorvo,Portugal,Bragança_Torre de Moncorvo,68.8
+5360,Bragança,Vila Flor,Portugal,Bragança_Vila Flor,65.9
+5230,Bragança,Vimioso,Portugal,Bragança_Vimioso,63.2
+5335,Bragança,Vinhais,Portugal,Bragança_Vinhais,61.9
+5320,Bragança,Vinhais,Portugal,Bragança_Vinhais,61.9
+6250,Castelo Branco,Belmonte,Portugal,Castelo Branco_Belmonte,74.4
+6005,Castelo Branco,Castelo Branco,Portugal,Castelo Branco_Castelo Branco,96.2
+6000,Castelo Branco,Castelo Branco,Portugal,Castelo Branco_Castelo Branco,96.2
+6004,Castelo Branco,Castelo Branco,Portugal,Castelo Branco_Castelo Branco,96.2
+6225,Castelo Branco,Covilhã,Portugal,Castelo Branco_Covilhã,86.9
+6200,Castelo Branco,Covilhã,Portugal,Castelo Branco_Covilhã,86.9
+6215,Castelo Branco,Covilhã,Portugal,Castelo Branco_Covilhã,86.9
+6201,Castelo Branco,Covilhã,Portugal,Castelo Branco_Covilhã,86.9
+6230,Castelo Branco,Covilhã,Portugal,Castelo Branco_Covilhã,86.9
+6230,Castelo Branco,Fundão,Portugal,Castelo Branco_Fundão,79.8
+6185,Castelo Branco,Fundão,Portugal,Castelo Branco_Fundão,79.8
+6005,Castelo Branco,Fundão,Portugal,Castelo Branco_Fundão,79.8
+6060,Castelo Branco,Idanha-a-Nova,Portugal,Castelo Branco_Idanha-a-Nova,68.5
+6160,Castelo Branco,Oleiros,Portugal,Castelo Branco_Oleiros,66.6
+6185,Castelo Branco,Oleiros,Portugal,Castelo Branco_Oleiros,66.6
+6090,Castelo Branco,Penamacor,Portugal,Castelo Branco_Penamacor,61.2
+6320,Castelo Branco,Penamacor,Portugal,Castelo Branco_Penamacor,61.2
+6150,Castelo Branco,Proença-a-Nova,Portugal,Castelo Branco_Proença-a-Nova,74.8
+6100,Castelo Branco,Sertã,Portugal,Castelo Branco_Sertã,76.3
+6110,Castelo Branco,Vila de Rei,Portugal,Castelo Branco_Vila de Rei,67.4
+6030,Castelo Branco,Vila Velha de Ródão,Portugal,Castelo Branco_Vila Velha de Ródão,73.9
+3305,Coimbra,Arganil,Portugal,Coimbra_Arganil,72.1
+3300,Coimbra,Arganil,Portugal,Coimbra_Arganil,72.1
+3060,Coimbra,Cantanhede,Portugal,Coimbra_Cantanhede,84.4
+3064,Coimbra,Cantanhede,Portugal,Coimbra_Cantanhede,84.4
+3040,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3045,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3025,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3020,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3030,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3044,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3004,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3000,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3034,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3049,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3020,Aveiro,Mealhada,Portugal,Aveiro_Mealhada,88.8
+3048,Coimbra,Coimbra,Portugal,Coimbra_Coimbra,119.8
+3150,Coimbra,Condeixa-a-Nova,Portugal,Coimbra_Condeixa-a-Nova,84.1
+3154,Coimbra,Condeixa-a-Nova,Portugal,Coimbra_Condeixa-a-Nova,84.1
+3090,Coimbra,Figueira da Foz,Portugal,Coimbra_Figueira da Foz,94.8
+3080,Coimbra,Figueira da Foz,Portugal,Coimbra_Figueira da Foz,94.8
+3094,Coimbra,Figueira da Foz,Portugal,Coimbra_Figueira da Foz,94.8
+3084,Coimbra,Figueira da Foz,Portugal,Coimbra_Figueira da Foz,94.8
+3330,Coimbra,Góis,Portugal,Coimbra_Góis,68.3
+3334,Coimbra,Góis,Portugal,Coimbra_Góis,68.3
+3200,Coimbra,Lousã,Portugal,Coimbra_Lousã,84.4
+3070,Coimbra,Mira,Portugal,Coimbra_Mira,77.1
+3074,Coimbra,Mira,Portugal,Coimbra_Mira,77.1
+3220,Coimbra,Miranda do Corvo,Portugal,Coimbra_Miranda do Corvo,73.7
+3140,Coimbra,Montemor-o-Velho,Portugal,Coimbra_Montemor-o-Velho,75.6
+3144,Coimbra,Montemor-o-Velho,Portugal,Coimbra_Montemor-o-Velho,75.6
+3400,Coimbra,Oliveira do Hospital,Portugal,Coimbra_Oliveira do Hospital,75.1
+3405,Coimbra,Oliveira do Hospital,Portugal,Coimbra_Oliveira do Hospital,75.1
+3404,Coimbra,Oliveira do Hospital,Portugal,Coimbra_Oliveira do Hospital,75.1
+3320,Coimbra,Pampilhosa da Serra,Portugal,Coimbra_Pampilhosa da Serra,65
+3360,Coimbra,Penacova,Portugal,Coimbra_Penacova,69.7
+3230,Coimbra,Penela,Portugal,Coimbra_Penela,77.5
+3234,Coimbra,Penela,Portugal,Coimbra_Penela,77.5
+3130,Coimbra,Soure,Portugal,Coimbra_Soure,74.6
+3420,Coimbra,Tábua,Portugal,Coimbra_Tábua,73.8
+3350,Coimbra,Vila Nova de Poiares,Portugal,Coimbra_Vila Nova de Poiares,77.8
+7250,Évora,Alandroal,Portugal,Évora_Alandroal,69.8
+7154,Évora,Borba,Portugal,Évora_Borba,75.8
+7200,Évora,Alandroal,Portugal,Évora_Alandroal,69.8
+7040,Évora,Arraiolos,Portugal,Évora_Arraiolos,77.1
+7150,Évora,Borba,Portugal,Évora_Borba,75.8
+7100,Évora,Estremoz,Portugal,Évora_Estremoz,95.7
+7005,Évora,Évora,Portugal,Évora_Évora,112
+7000,Évora,Évora,Portugal,Évora_Évora,112
+7004,Évora,Évora,Portugal,Évora_Évora,112
+7009,Évora,Évora,Portugal,Évora_Évora,112
+7200,Évora,Évora,Portugal,Évora_Évora,112
+7050,Évora,Montemor-o-Novo,Portugal,Évora_Montemor-o-Novo,88.6
+7490,Évora,Mora,Portugal,Évora_Mora,80.2
+7240,Évora,Mourão,Portugal,Évora_Mourão,71.2
+7244,Évora,Mourão,Portugal,Évora_Mourão,71.2
+7220,Évora,Portel,Portugal,Évora_Portel,68.2
+7200,Évora,Redondo,Portugal,Évora_Redondo,74.1
+7170,Évora,Redondo,Portugal,Évora_Redondo,74.1
+7200,Évora,Reguengos de Monsaraz,Portugal,Évora_Reguengos de Monsaraz,90.9
+2965,Évora,Vendas Novas,Portugal,Évora_Vendas Novas,93.1
+7080,Évora,Vendas Novas,Portugal,Évora_Vendas Novas,93.1
+7090,Évora,Viana do Alentejo,Portugal,Évora_Viana do Alentejo,78.8
+7160,Évora,Vila Viçosa,Portugal,Évora_Vila Viçosa,82.8
+8200,Faro,Albufeira,Portugal,Faro_Albufeira,107
+8201,Faro,Albufeira,Portugal,Faro_Albufeira,107
+8203,Faro,Albufeira,Portugal,Faro_Albufeira,107
+8970,Faro,Alcoutim,Portugal,Faro_Alcoutim,71
+8670,Faro,Aljezur,Portugal,Faro_Aljezur,71.6
+8950,Faro,Castro Marim,Portugal,Faro_Castro Marim,81.2
+8954,Faro,Castro Marim,Portugal,Faro_Castro Marim,81.2
+8009,Faro,Faro,Portugal,Faro_Faro,116
+8005,Faro,Faro,Portugal,Faro_Faro,116
+8000,Faro,Faro,Portugal,Faro_Faro,116
+8004,Faro,Faro,Portugal,Faro_Faro,116
+8400,Faro,Lagoa,Portugal,Faro_Lagoa ,91.4
+8401,Faro,Lagoa,Portugal,Faro_Lagoa ,91.4
+8600,Faro,Lagos,Portugal,Faro_Lagos,94.4
+8601,Faro,Lagos,Portugal,Faro_Lagos,94.4
+8604,Faro,Lagos,Portugal,Faro_Lagos,94.4
+8135,Faro,Loulé,Portugal,Faro_Loulé,115.4
+8100,Faro,Loulé,Portugal,Faro_Loulé,115.4
+8136,Faro,Loulé,Portugal,Faro_Loulé,115.4
+8104,Faro,Loulé,Portugal,Faro_Loulé,115.4
+8125,Faro,Loulé,Portugal,Faro_Loulé,115.4
+8550,Faro,Monchique,Portugal,Faro_Monchique,65.7
+8700,Faro,Olhão,Portugal,Faro_Olhão,84.5
+8500,Faro,Portimão,Portugal,Faro_Portimão,102.1
+8501,Faro,Portimão,Portugal,Faro_Portimão,102.1
+8150,Faro,São Brás de Alportel,Portugal,Faro_São Brás de Alportel,90.2
+8365,Faro,Silves,Portugal,Faro_Silves,83.8
+8375,Faro,Silves,Portugal,Faro_Silves,83.8
+8300,Faro,Silves,Portugal,Faro_Silves,83.8
+8800,Faro,Tavira,Portugal,Faro_Tavira,93.7
+8801,Faro,Tavira,Portugal,Faro_Tavira,93.7
+8804,Faro,Tavira,Portugal,Faro_Tavira,93.7
+8650,Faro,Vila do Bispo,Portugal,Faro_Vila do Bispo,67.2
+8900,Faro,Vila Real de Santo António,Portugal,Faro_Vila Real de Santo António,93.8
+3570,Guarda,Aguiar da Beira,Portugal,Guarda_Aguiar da Beira,70.5
+6355,Guarda,Almeida,Portugal,Guarda_Almeida,72.9
+6350,Guarda,Almeida,Portugal,Guarda_Almeida,72.9
+6360,Guarda,Celorico da Beira,Portugal,Guarda_Celorico da Beira,71.1
+6440,Guarda,Figueira de Castelo Rodrigo,Portugal,Guarda_Figueira de Castelo Rodrigo,69.8
+6370,Guarda,Fornos de Algodres,Portugal,Guarda_Fornos de Algodres,64.7
+6290,Guarda,Gouveia,Portugal,Guarda_Gouveia,69.6
+6294,Guarda,Gouveia,Portugal,Guarda_Gouveia,69.6
+6300,Guarda,Guarda,Portugal,Guarda_Guarda,95.3
+6301,Guarda,Guarda,Portugal,Guarda_Guarda,95.3
+6260,Guarda,Manteigas,Portugal,Guarda_Manteigas,71.6
+6264,Guarda,Manteigas,Portugal,Guarda_Manteigas,71.6
+6430,Guarda,Mêda,Portugal,Guarda_Meda,68
+6400,Guarda,Pinhel,Portugal,Guarda_Pinhel,70
+6320,Guarda,Sabugal,Portugal,Guarda_Sabugal,64.1
+6250,Guarda,Sabugal,Portugal,Guarda_Sabugal,64.1
+6324,Guarda,Sabugal,Portugal,Guarda_Sabugal,64.1
+6270,Guarda,Seia,Portugal,Guarda_Seia,78.9
+6274,Guarda,Seia,Portugal,Guarda_Seia,78.9
+6285,Guarda,Seia,Portugal,Guarda_Seia,78.9
+6420,Guarda,Trancoso,Portugal,Guarda_Trancoso,71.4
+3640,Guarda,Trancoso,Portugal,Guarda_Trancoso,71.4
+6424,Guarda,Trancoso,Portugal,Guarda_Trancoso,71.4
+5150,Guarda,Vila Nova de Foz Côa,Portugal,Guarda_Vila Nova de Foz Côa,72
+5155,Guarda,Vila Nova de Foz Côa,Portugal,Guarda_Vila Nova de Foz Côa,72
+9980,Ilha do Corvo,Corvo,Portugal,Ilha do Corvo_Corvo,75.7
+9900,Ilha do Faial,Horta,Portugal,Ilha do Faial_Horta,88.7
+9901,Ilha do Faial,Horta,Portugal,Ilha do Faial_Horta,88.7
+9904,Ilha do Faial,Horta,Portugal,Ilha do Faial_Horta,88.7
+9960,Ilha das Flores,Lajes das Flores,Portugal,Ilha das Flores_Lajes das Flores,82.6
+9970,Ilha das Flores,Santa Cruz das Flores,Portugal,Ilha das Flores_Santa Cruz das Flores,84
+9880,Ilha da Graciosa,Santa Cruz da Graciosa,Portugal,Ilha da Graciosa_Santa Cruz da Graciosa,78.4
+9370,Ilha da Madeira,Calheta_Madeira,Portugal,Ilha da Madeira_Calheta ,67.1
+9374,Ilha da Madeira,Calheta_Madeira,Portugal,Ilha da Madeira_Calheta ,67.1
+9385,Ilha da Madeira,Calheta_Madeira,Portugal,Ilha da Madeira_Calheta ,67.1
+9300,Ilha da Madeira,Câmara de Lobos,Portugal,Ilha da Madeira_Câmara de Lobos,63.5
+9304,Ilha da Madeira,Câmara de Lobos,Portugal,Ilha da Madeira_Câmara de Lobos,63.5
+9030,Ilha da Madeira,Câmara de Lobos,Portugal,Ilha da Madeira_Câmara de Lobos,63.5
+9325,Ilha da Madeira,Câmara de Lobos,Portugal,Ilha da Madeira_Câmara de Lobos,63.5
+9050,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9054,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9060,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9004,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9000,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9064,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9020,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9024,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,109.6
+9200,Ilha da Madeira,Machico,Portugal,Ilha da Madeira_Machico,77
+9225,Ilha da Madeira,Machico,Portugal,Ilha da Madeira_Machico,77
+9360,Ilha da Madeira,Ponta do Sol,Portugal,Ilha da Madeira_Ponta do Sol,60.7
+9270,Ilha da Madeira,Porto Moniz,Portugal,Ilha da Madeira_Porto Moniz,61
+9350,Ilha da Madeira,Ribeira Brava,Portugal,Ilha da Madeira_Ribeira Brava,68.2
+9135,Ilha da Madeira,Santa Cruz,Portugal,Ilha da Madeira_Santa Cruz,76.1
+9125,Ilha da Madeira,Santa Cruz,Portugal,Ilha da Madeira_Santa Cruz,76.1
+9100,Ilha da Madeira,Santa Cruz,Portugal,Ilha da Madeira_Santa Cruz,76.1
+9230,Ilha da Madeira,Santana,Portugal,Ilha da Madeira_Santana,64.6
+9240,Ilha da Madeira,São Vicente,Portugal,Ilha da Madeira_São Vicente,66.1
+9930,Ilha do Pico,Lajes do Pico,Portugal,Ilha do Pico_Lajes do Pico,70.6
+9934,Ilha do Pico,Lajes do Pico,Portugal,Ilha do Pico_Lajes do Pico,70.6
+9950,Ilha do Pico,Madalena,Portugal,Ilha do Pico_Madalena,84.8
+9940,Ilha do Pico,São Roque do Pico,Portugal,Ilha do Pico_São Roque do Pico,80.3
+9944,Ilha do Pico,São Roque do Pico,Portugal,Ilha do Pico_São Roque do Pico,80.3
+9400,Ilha de Porto Santo,Porto Santo,Portugal,Ilha de Porto Santo_Porto Santo,97.5
+9580,Ilha de Santa Maria,Vila do Porto,Portugal,Ilha de Santa Maria_Vila do Porto,90.4
+9850,Ilha de São Jorge,Calheta_Azores,Portugal,Ilha de São Jorge_Calheta ,72.3
+9875,Ilha de São Jorge,Calheta_Azores,Portugal,Ilha de São Jorge_Calheta ,72.3
+9800,Ilha de São Jorge,Velas,Portugal,Ilha de São Jorge_Velas,87.8
+9804,Ilha de São Jorge,Velas,Portugal,Ilha de São Jorge_Velas,87.8
+9560,Ilha de São Miguel,Lagoa_Azores,Portugal,Ilha de São Miguel_Lagoa ,76.9
+9630,Ilha de São Miguel,Nordeste,Portugal,Ilha de São Miguel_Nordeste,63.9
+9545,Ilha de São Miguel,Ponta Delgada,Portugal,Ilha de São Miguel_Ponta Delgada,102.6
+9500,Ilha de São Miguel,Ponta Delgada,Portugal,Ilha de São Miguel_Ponta Delgada,102.6
+9504,Ilha de São Miguel,Ponta Delgada,Portugal,Ilha de São Miguel_Ponta Delgada,102.6
+9555,Ilha de São Miguel,Ponta Delgada,Portugal,Ilha de São Miguel_Ponta Delgada,102.6
+9650,Ilha de São Miguel,Povoação,Portugal,Ilha de São Miguel_Povoação,67.1
+9675,Ilha de São Miguel,Povoação,Portugal,Ilha de São Miguel_Povoação,67.1
+9600,Ilha de São Miguel,Ribeira Grande,Portugal,Ilha de São Miguel_Ribeira Grande,73
+9625,Ilha de São Miguel,Ribeira Grande,Portugal,Ilha de São Miguel_Ribeira Grande,73
+9680,Ilha de São Miguel,Vila Franca do Campo,Portugal,Ilha de São Miguel_Vila Franca do Campo,70.6
+9684,Ilha de São Miguel,Vila Franca do Campo,Portugal,Ilha de São Miguel_Vila Franca do Campo,70.6
+9700,Ilha Terceira,Angra do Heroísmo,Portugal,Ilha Terceira_Angra do Heroísmo,94.8
+9701,Ilha Terceira,Angra do Heroísmo,Portugal,Ilha Terceira_Angra do Heroísmo,94.8
+9760,Ilha Terceira,Vila da Praia da Vitória,Portugal,Ilha Terceira_Praia da Vitória,82.6
+2460,Leiria,Alcobaça,Portugal,Leiria_Alcobaça,86.3
+2461,Leiria,Alcobaça,Portugal,Leiria_Alcobaça,86.3
+2475,Leiria,Alcobaça,Portugal,Leiria_Alcobaça,86.3
+2445,Leiria,Alcobaça,Portugal,Leiria_Alcobaça,86.3
+3250,Leiria,Alvaiázere,Portugal,Leiria_Alvaiázere,72.7
+3254,Leiria,Alvaiázere,Portugal,Leiria_Alvaiázere,72.7
+3260,Leiria,Alvaiázere,Portugal,Leiria_Alvaiázere,72.7
+3240,Leiria,Ansião,Portugal,Leiria_Ansião,76.2
+2440,Leiria,Batalha,Portugal,Leiria_Batalha,89.3
+2495,Leiria,Batalha,Portugal,Leiria_Batalha,89.3
+2540,Leiria,Bombarral,Portugal,Leiria_Bombarral,85.3
+2500,Leiria,Caldas da Rainha,Portugal,Leiria_Caldas da Rainha,98.8
+2504,Leiria,Caldas da Rainha,Portugal,Leiria_Caldas da Rainha,98.8
+3280,Leiria,Castanheira de Pêra,Portugal,Leiria_Castanheira de Pêra,72.5
+3260,Leiria,Figueiró dos Vinhos,Portugal,Leiria_Figueiró dos Vinhos,71.5
+2400,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2404,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2420,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2424,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2425,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2410,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2415,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2419,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2423,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2495,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2414,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2405,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2499,Leiria,Leiria,Portugal,Leiria_Leiria,105.7
+2430,Leiria,Marinha Grande,Portugal,Leiria_Marinha Grande,92.7
+2434,Leiria,Marinha Grande,Portugal,Leiria_Marinha Grande,92.7
+2445,Leiria,Marinha Grande,Portugal,Leiria_Marinha Grande,92.7
+2450,Leiria,Nazaré,Portugal,Leiria_Nazaré,88.1
+2510,Leiria,Óbidos,Portugal,Leiria_Óbidos,81.3
+3270,Leiria,Pedrógão Grande,Portugal,Leiria_Pedrógão Grande,69.7
+2525,Leiria,Peniche,Portugal,Leiria_Peniche,87.7
+2520,Leiria,Peniche,Portugal,Leiria_Peniche,87.7
+3100,Leiria,Pombal,Portugal,Leiria_Pombal,85.2
+3105,Leiria,Pombal,Portugal,Leiria_Pombal,85.2
+3104,Leiria,Pombal,Portugal,Leiria_Pombal,85.2
+2480,Leiria,Porto de Mós,Portugal,Leiria_Porto de Mós,82.4
+2485,Leiria,Porto de Mós,Portugal,Leiria_Porto de Mós,82.4
+2484,Leiria,Porto de Mós,Portugal,Leiria_Porto de Mós,82.4
+2580,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,88.8
+2581,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,88.8
+2584,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,88.8
+2650,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2614,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2610,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2700,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2720,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2704,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2724,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2654,Lisboa,Amadora,Portugal,Lisboa_Amadora,102.3
+2630,Lisboa,Arruda dos Vinhos,Portugal,Lisboa_Arruda dos Vinhos,103.2
+2634,Lisboa,Arruda dos Vinhos,Portugal,Lisboa_Arruda dos Vinhos,103.2
+2065,Lisboa,Azambuja,Portugal,Lisboa_Azambuja,111.1
+2050,Lisboa,Azambuja,Portugal,Lisboa_Azambuja,111.1
+2054,Lisboa,Azambuja,Portugal,Lisboa_Azambuja,111.1
+2550,Lisboa,Cadaval,Portugal,Lisboa_Cadaval,76
+2755,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2645,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2649,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2756,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2775,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2750,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2765,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2769,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2785,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2779,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2754,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+2789,Lisboa,Cascais,Portugal,Lisboa_Cascais,121.8
+1300,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1400,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1349,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1070,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1350,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1449,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1900,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1949,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1000,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1049,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1700,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1749,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1150,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1169,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1600,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1050,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1069,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1649,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1750,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1769,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1500,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1170,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1199,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1100,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1149,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1950,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1549,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1800,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1099,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1098,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1250,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1269,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1200,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1249,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1399,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1849,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1959,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1067,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1990,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1998,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1999,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1748,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+1068,Lisboa,Lisboa,Portugal,Lisboa_Lisboa,186.3
+2680,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2695,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2699,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2670,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2674,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2681,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2660,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+1885,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+1886,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2685,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2689,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2688,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2690,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2694,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2691,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2664,Lisboa,Loures,Portugal,Lisboa_Loures,102.3
+2530,Lisboa,Lourinhã,Portugal,Lisboa_Lourinhã,85.3
+2665,Lisboa,Mafra,Portugal,Lisboa_Mafra,102.9
+2655,Lisboa,Mafra,Portugal,Lisboa_Mafra,102.9
+2640,Lisboa,Mafra,Portugal,Lisboa_Mafra,102.9
+2644,Lisboa,Mafra,Portugal,Lisboa_Mafra,102.9
+2659,Lisboa,Mafra,Portugal,Lisboa_Mafra,102.9
+2669,Lisboa,Mafra,Portugal,Lisboa_Mafra,102.9
+1685,Lisboa,Odivelas,Portugal,Lisboa_Odivelas,94.7
+2620,Lisboa,Odivelas,Portugal,Lisboa_Odivelas,94.7
+1689,Lisboa,Odivelas,Portugal,Lisboa_Odivelas,94.7
+2675,Lisboa,Odivelas,Portugal,Lisboa_Odivelas,94.7
+1675,Lisboa,Odivelas,Portugal,Lisboa_Odivelas,94.7
+1679,Lisboa,Odivelas,Portugal,Lisboa_Odivelas,94.7
+2621,Lisboa,Odivelas,Portugal,Lisboa_Odivelas,94.7
+1495,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+1499,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2790,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2760,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2730,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2734,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2794,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2761,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2795,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2799,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2780,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2784,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2770,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2774,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2740,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2744,Lisboa,Oeiras,Portugal,Lisboa_Oeiras,165.5
+2735,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2739,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2725,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2729,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2605,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2715,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2609,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2745,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2705,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2710,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2749,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2718,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2635,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2639,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2709,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2714,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2719,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2706,Lisboa,Sintra,Portugal,Lisboa_Sintra,97.9
+2590,Lisboa,Sobral de Monte Agraço,Portugal,Lisboa_Sobral de Monte Agraço,85.8
+2594,Lisboa,Sobral de Monte Agraço,Portugal,Lisboa_Sobral de Monte Agraço,85.8
+2560,Lisboa,Torres Vedras,Portugal,Lisboa_Torres Vedras,93.8
+2565,Lisboa,Torres Vedras,Portugal,Lisboa_Torres Vedras,93.8
+2600,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+2601,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+2615,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+2619,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+2625,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+2626,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+2628,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+2629,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,98.9
+7440,Portalegre,Alter do Chão,Portugal,Portalegre_Alter do Chão,73.6
+7340,Portalegre,Arronches,Portugal,Portalegre_Arronches,75.9
+7480,Portalegre,Avis,Portugal,Portalegre_Avis,78.6
+7370,Portalegre,Campo Maior,Portugal,Portalegre_Campo Maior,90.6
+7374,Portalegre,Campo Maior,Portugal,Portalegre_Campo Maior,90.6
+7320,Portalegre,Castelo de Vide,Portugal,Portalegre_Castelo de Vide,79.4
+7430,Portalegre,Crato,Portugal,Portalegre_Crato,73.7
+7350,Portalegre,Elvas,Portugal,Portalegre_Elvas,90
+7354,Portalegre,Elvas,Portugal,Portalegre_Elvas,90
+7460,Portalegre,Fronteira,Portugal,Portalegre_Fronteira,76.2
+7464,Portalegre,Fronteira,Portugal,Portalegre_Fronteira,76.2
+6040,Portalegre,Gavião,Portugal,Portalegre_Gavião,70.9
+7330,Portalegre,Marvão,Portugal,Portalegre_Marvão,69.3
+7450,Portalegre,Monforte,Portugal,Portalegre_Monforte,71.6
+6050,Portalegre,Nisa,Portugal,Portalegre_Nisa,76.4
+7425,Portalegre,Ponte de Sor,Portugal,Portalegre_Ponte de Sor,83.9
+7400,Portalegre,Ponte de Sor,Portugal,Portalegre_Ponte de Sor,83.9
+7300,Portalegre,Portalegre,Portugal,Portalegre_Portalegre,98.5
+7301,Portalegre,Portalegre,Portugal,Portalegre_Portalegre,98.5
+7470,Portalegre,Sousel,Portugal,Portalegre_Sousel,72.9
+4600,Porto,Amarante,Portugal,Porto_Amarante,75.3
+4605,Porto,Amarante,Portugal,Porto_Amarante,75.3
+4615,Porto,Amarante,Portugal,Porto_Amarante,75.3
+4640,Porto,Baião,Portugal,Porto_Baião,62.7
+5040,Porto,Baião,Portugal,Porto_Baião,62.7
+4650,Porto,Felgueiras,Portugal,Porto_Felgueiras,81.2
+4615,Porto,Felgueiras,Portugal,Porto_Felgueiras,81.2
+4610,Porto,Felgueiras,Portugal,Porto_Felgueiras,81.2
+4614,Porto,Felgueiras,Portugal,Porto_Felgueiras,81.2
+4620,Porto,Lousada,Portugal,Porto_Lousada,74.6
+4815,Porto,Felgueiras,Portugal,Porto_Felgueiras,81.2
+4435,Porto,Gondomar,Portugal,Porto_Gondomar,85.9
+4510,Porto,Gondomar,Portugal,Porto_Gondomar,85.9
+4515,Porto,Gondomar,Portugal,Porto_Gondomar,85.9
+4420,Porto,Gondomar,Portugal,Porto_Gondomar,85.9
+4424,Porto,Gondomar,Portugal,Porto_Gondomar,85.9
+4624,Porto,Lousada,Portugal,Porto_Lousada,74.6
+4650,Porto,Lousada,Portugal,Porto_Lousada,74.6
+4425,Porto,Maia,Portugal,Porto_Maia,108.7
+4475,Porto,Maia,Portugal,Porto_Maia,108.7
+4470,Porto,Maia,Portugal,Porto_Maia,108.7
+4477,Porto,Maia,Portugal,Porto_Maia,108.7
+4479,Porto,Maia,Portugal,Porto_Maia,108.7
+4471,Porto,Maia,Portugal,Porto_Maia,108.7
+4474,Porto,Maia,Portugal,Porto_Maia,108.7
+4575,Porto,Marco de Canaveses,Portugal,Porto_Marco de Canaveses,75.5
+4625,Porto,Marco de Canaveses,Portugal,Porto_Marco de Canaveses,75.5
+4630,Porto,Marco de Canaveses,Portugal,Porto_Marco de Canaveses,75.5
+4635,Porto,Marco de Canaveses,Portugal,Porto_Marco de Canaveses,75.5
+4634,Porto,Marco de Canaveses,Portugal,Porto_Marco de Canaveses,75.5
+4460,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4465,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4455,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4450,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4454,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4459,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4458,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4464,Porto,Matosinhos,Portugal,Porto_Matosinhos,118.1
+4595,Porto,Paços de Ferreira,Portugal,Porto_Paços de Ferreira,82.4
+4590,Porto,Paços de Ferreira,Portugal,Porto_Paços de Ferreira,82.4
+4594,Porto,Paços de Ferreira,Portugal,Porto_Paços de Ferreira,82.4
+4599,Porto,Paços de Ferreira,Portugal,Porto_Paços de Ferreira,82.4
+4585,Porto,Paredes,Portugal,Porto_Paredes,79.3
+4580,Porto,Paredes,Portugal,Porto_Paredes,79.3
+4560,Porto,Penafiel,Portugal,Porto_Penafiel,80.4
+4575,Porto,Penafiel,Portugal,Porto_Penafiel,80.4
+4564,Porto,Penafiel,Portugal,Porto_Penafiel,80.4
+4100,Porto,Porto,Portugal,Porto_Porto,147.6
+4150,Porto,Porto,Portugal,Porto_Porto,147.6
+4149,Porto,Porto,Portugal,Porto_Porto,147.6
+4099,Porto,Porto,Portugal,Porto_Porto,147.6
+4050,Porto,Porto,Portugal,Porto_Porto,147.6
+4350,Porto,Porto,Portugal,Porto_Porto,147.6
+4200,Porto,Porto,Portugal,Porto_Porto,147.6
+4250,Porto,Porto,Portugal,Porto_Porto,147.6
+4300,Porto,Porto,Portugal,Porto_Porto,147.6
+4349,Porto,Porto,Portugal,Porto_Porto,147.6
+4000,Porto,Porto,Portugal,Porto_Porto,147.6
+4049,Porto,Porto,Portugal,Porto_Porto,147.6
+4249,Porto,Porto,Portugal,Porto_Porto,147.6
+4369,Porto,Porto,Portugal,Porto_Porto,147.6
+4269,Porto,Porto,Portugal,Porto_Porto,147.6
+4169,Porto,Porto,Portugal,Porto_Porto,147.6
+4199,Porto,Porto,Portugal,Porto_Porto,147.6
+4495,Porto,Póvoa de Varzim,Portugal,Porto_Póvoa de Varzim,94.5
+4490,Porto,Póvoa de Varzim,Portugal,Porto_Póvoa de Varzim,94.5
+4570,Porto,Póvoa de Varzim,Portugal,Porto_Póvoa de Varzim,94.5
+4825,Porto,Santo Tirso,Portugal,Porto_Santo Tirso,84.8
+4780,Porto,Santo Tirso,Portugal,Porto_Santo Tirso,84.8
+4795,Porto,Santo Tirso,Portugal,Porto_Santo Tirso,84.8
+4745,Porto,Trofa,Portugal,Porto_Trofa,93.1
+4785,Porto,Trofa,Portugal,Porto_Trofa,93.1
+4445,Porto,Valongo,Portugal,Porto_Valongo,92.7
+4440,Porto,Valongo,Portugal,Porto_Valongo,92.7
+4480,Porto,Vila do Conde,Portugal,Porto_Vila do Conde,93.6
+4485,Porto,Vila do Conde,Portugal,Porto_Vila do Conde,93.6
+4486,Porto,Vila do Conde,Portugal,Porto_Vila do Conde,93.6
+4484,Porto,Vila do Conde,Portugal,Porto_Vila do Conde,93.6
+4410,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4405,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4430,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4434,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4414,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4400,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4415,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4409,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+4404,Porto,Vila Nova de Gaia,Portugal,Porto_Vila Nova de Gaia,101
+2200,Santarém,Abrantes,Portugal,Santarém_Abrantes,88.5
+2205,Santarém,Abrantes,Portugal,Santarém_Abrantes,88.5
+2230,Santarém,Abrantes,Portugal,Santarém_Abrantes,88.5
+2380,Santarém,Alcanena,Portugal,Santarém_Alcanena,85.3
+2384,Santarém,Alcanena,Portugal,Santarém_Alcanena,85.3
+2395,Santarém,Alcanena,Portugal,Santarém_Alcanena,85.3
+2080,Santarém,Almeirim,Portugal,Santarém_Almeirim,88.3
+2090,Santarém,Alpiarça,Portugal,Santarém_Alpiarça,81.3
+2130,Santarém,Benavente,Portugal,Santarém_Benavente,96.7
+2135,Santarém,Benavente,Portugal,Santarém_Benavente,96.7
+2890,Santarém,Benavente,Portugal,Santarém_Benavente,96.7
+2139,Santarém,Benavente,Portugal,Santarém_Benavente,96.7
+2070,Santarém,Cartaxo,Portugal,Santarém_Cartaxo,90.2
+2140,Santarém,Chamusca,Portugal,Santarém_Chamusca,74.5
+2250,Santarém,Constância,Portugal,Santarém_Constância,85
+2100,Santarém,Coruche,Portugal,Santarém_Coruche,78
+2330,Santarém,Entroncamento,Portugal,Santarém_Entroncamento,99.1
+2334,Santarém,Entroncamento,Portugal,Santarém_Entroncamento,99.1
+2240,Santarém,Ferreira do Zêzere,Portugal,Santarém_Ferreira do Zêzere,74.1
+2150,Santarém,Golegã,Portugal,Santarém_Golegã,84.1
+2154,Santarém,Golegã,Portugal,Santarém_Golegã,84.1
+6120,Santarém,Mação,Portugal,Santarém_Mação,71.5
+2490,Santarém,Ourém,Portugal,Santarém_Ourém,86.6
+2435,Santarém,Ourém,Portugal,Santarém_Ourém,86.6
+2495,Santarém,Ourém,Portugal,Santarém_Ourém,86.6
+2040,Santarém,Rio Maior,Portugal,Santarém_Rio Maior,89.8
+2120,Santarém,Salvaterra de Magos,Portugal,Santarém_Salvaterra de Magos,81.2
+2125,Santarém,Salvaterra de Magos,Portugal,Santarém_Salvaterra de Magos,81.2
+2124,Santarém,Salvaterra de Magos,Portugal,Santarém_Salvaterra de Magos,81.2
+2005,Santarém,Santarém,Portugal,Santarém_Santarém,99.5
+2025,Santarém,Santarém,Portugal,Santarém_Santarém,99.5
+2000,Santarém,Santarém,Portugal,Santarém_Santarém,99.5
+2004,Santarém,Santarém,Portugal,Santarém_Santarém,99.5
+2009,Santarém,Santarém,Portugal,Santarém_Santarém,99.5
+2230,Santarém,Sardoal,Portugal,Santarém_Sardoal,74.3
+2305,Santarém,Tomar,Portugal,Santarém_Tomar,88.8
+2300,Santarém,Tomar,Portugal,Santarém_Tomar,88.8
+2350,Santarém,Torres Novas,Portugal,Santarém_Torres Novas,95
+2260,Santarém,Vila Nova da Barquinha,Portugal,Santarém_Vila Nova da Barquinha,77.2
+7580,Setúbal,Alcácer do Sal,Portugal,Setúbal_Alcácer do Sal,87.7
+7595,Setúbal,Alcácer do Sal,Portugal,Setúbal_Alcácer do Sal,87.7
+2890,Setúbal,Alcochete,Portugal,Setúbal_Alcochete,118.9
+2894,Setúbal,Alcochete,Portugal,Setúbal_Alcochete,118.9
+2800,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2804,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2805,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2809,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2825,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2829,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2820,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2821,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2810,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2814,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2815,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2819,Setúbal,Almada,Portugal,Setúbal_Almada,104.5
+2834,Setúbal,Barreiro,Portugal,Setúbal_Barreiro,96.5
+2830,Setúbal,Barreiro,Portugal,Setúbal_Barreiro,96.5
+2835,Setúbal,Barreiro,Portugal,Setúbal_Barreiro,96.5
+2839,Setúbal,Barreiro,Portugal,Setúbal_Barreiro,96.5
+7570,Setúbal,Grândola,Portugal,Setúbal_Grândola,95.4
+2860,Setúbal,Moita,Portugal,Setúbal_Moita,82.3
+2835,Setúbal,Moita,Portugal,Setúbal_Moita,82.3
+2864,Setúbal,Moita,Portugal,Setúbal_Moita,82.3
+2870,Setúbal,Montijo,Portugal,Setúbal_Montijo,102.5
+2985,Setúbal,Montijo,Portugal,Setúbal_Montijo,102.5
+2100,Setúbal,Montijo,Portugal,Setúbal_Montijo,102.5
+2965,Setúbal,Palmela,Portugal,Setúbal_Palmela,97.7
+2950,Setúbal,Palmela,Portugal,Setúbal_Palmela,97.7
+2954,Setúbal,Palmela,Portugal,Setúbal_Palmela,97.7
+2955,Setúbal,Palmela,Portugal,Setúbal_Palmela,97.7
+2951,Setúbal,Palmela,Portugal,Setúbal_Palmela,97.7
+2959,Setúbal,Palmela,Portugal,Setúbal_Palmela,97.7
+7540,Setúbal,Santiago do Cacém,Portugal,Setúbal_Santiago do Cacém,95.8
+7565,Setúbal,Santiago do Cacém,Portugal,Setúbal_Santiago do Cacém,95.8
+7555,Setúbal,Santiago do Cacém,Portugal,Setúbal_Santiago do Cacém,95.8
+7500,Setúbal,Santiago do Cacém,Portugal,Setúbal_Santiago do Cacém,95.8
+2840,Setúbal,Seixal,Portugal,Setúbal_Seixal,96
+2865,Setúbal,Seixal,Portugal,Setúbal_Seixal,96
+2845,Setúbal,Seixal,Portugal,Setúbal_Seixal,96
+2848,Setúbal,Seixal,Portugal,Setúbal_Seixal,96
+2844,Setúbal,Seixal,Portugal,Setúbal_Seixal,96
+2855,Setúbal,Seixal,Portugal,Setúbal_Seixal,96
+2975,Setúbal,Sesimbra,Portugal,Setúbal_Sesimbra,94.1
+2970,Setúbal,Sesimbra,Portugal,Setúbal_Sesimbra,94.1
+2910,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,104.8
+2914,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,104.8
+2925,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,104.8
+2929,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,104.8
+2900,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,104.8
+2904,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,104.8
+7520,Setúbal,Sines,Portugal,Setúbal_Sines,120.3
+7555,Setúbal,Sines,Portugal,Setúbal_Sines,120.3
+4970,Viana do Castelo,Arcos de Valdevez,Portugal,Viana do Castelo_Arcos de Valdevez,72.8
+4974,Viana do Castelo,Arcos de Valdevez,Portugal,Viana do Castelo_Arcos de Valdevez,72.8
+4910,Viana do Castelo,Caminha,Portugal,Viana do Castelo_Caminha,86.5
+4914,Viana do Castelo,Caminha,Portugal,Viana do Castelo_Caminha,86.5
+4960,Viana do Castelo,Melgaço,Portugal,Viana do Castelo_Melgaço,64
+4964,Viana do Castelo,Melgaço,Portugal,Viana do Castelo_Melgaço,64
+4950,Viana do Castelo,Monção,Portugal,Viana do Castelo_Monção,75.1
+4940,Viana do Castelo,Paredes de Coura,Portugal,Viana do Castelo_Paredes de Coura,69.4
+4944,Viana do Castelo,Paredes de Coura,Portugal,Viana do Castelo_Paredes de Coura,69.4
+4980,Viana do Castelo,Ponte da Barca,Portugal,Viana do Castelo_Ponte da Barca,67.2
+4990,Viana do Castelo,Ponte de Lima,Portugal,Viana do Castelo_Ponte de Lima,76.7
+4924,Viana do Castelo,Vila Nova de Cerveira,Portugal,Viana do Castelo_Vila Nova de Cerveira,84.9
+4930,Viana do Castelo,Valença,Portugal,Viana do Castelo_Valença,84.8
+4900,Viana do Castelo,Viana do Castelo,Portugal,Viana do Castelo_Viana do Castelo,92.1
+4905,Viana do Castelo,Viana do Castelo,Portugal,Viana do Castelo_Viana do Castelo,92.1
+4925,Viana do Castelo,Viana do Castelo,Portugal,Viana do Castelo_Viana do Castelo,92.1
+4935,Viana do Castelo,Viana do Castelo,Portugal,Viana do Castelo_Viana do Castelo,92.1
+4939,Viana do Castelo,Viana do Castelo,Portugal,Viana do Castelo_Viana do Castelo,92.1
+4904,Viana do Castelo,Viana do Castelo,Portugal,Viana do Castelo_Viana do Castelo,92.1
+4920,Viana do Castelo,Vila Nova de Cerveira,Portugal,Viana do Castelo_Vila Nova de Cerveira,84.9
+5070,Vila Real,Alijó,Portugal,Vila Real_Alijó,65.3
+5085,Vila Real,Alijó,Portugal,Vila Real_Alijó,65.3
+5460,Vila Real,Boticas,Portugal,Vila Real_Boticas,65.8
+5400,Vila Real,Chaves,Portugal,Vila Real_Chaves,82.5
+5425,Vila Real,Chaves,Portugal,Vila Real_Chaves,82.5
+5040,Vila Real,Mesão Frio,Portugal,Vila Real_Mesão Frio,69.1
+4880,Vila Real,Mondim de Basto,Portugal,Vila Real_Mondim de Basto,64.6
+5470,Vila Real,Montalegre,Portugal,Vila Real_Montalegre,65.1
+5090,Vila Real,Murça,Portugal,Vila Real_Murça,65.3
+5050,Vila Real,Peso da Régua,Portugal,Vila Real_Peso da Régua,84.8
+5054,Vila Real,Peso da Régua,Portugal,Vila Real_Peso da Régua,84.8
+5040,Vila Real,Peso da Régua,Portugal,Vila Real_Peso da Régua,84.8
+4870,Vila Real,Ribeira de Pena,Portugal,Vila Real_Ribeira de Pena,65.8
+5060,Vila Real,Sabrosa,Portugal,Vila Real_Sabrosa,67.4
+5085,Vila Real,Sabrosa,Portugal,Vila Real_Sabrosa,67.4
+5030,Vila Real,Santa Marta de Penaguião,Portugal,Vila Real_Santa Marta de Penaguião,64.4
+5430,Vila Real,Valpaços,Portugal,Vila Real_Valpaços,63.9
+5445,Vila Real,Valpaços,Portugal,Vila Real_Valpaços,63.9
+5450,Vila Real,Vila Pouca de Aguiar,Portugal,Vila Real_Vila Pouca de Aguiar,70.3
+5000,Vila Real,Vila Real,Portugal,Vila Real_Vila Real,99.1
+5004,Vila Real,Vila Real,Portugal,Vila Real_Vila Real,99.1
+5110,Viseu,Armamar,Portugal,Viseu_Armamar,71.2
+5114,Viseu,Armamar,Portugal,Viseu_Armamar,71.2
+3430,Viseu,Carregal do Sal,Portugal,Viseu_Carregal do Sal,72.9
+3600,Viseu,Castro Daire,Portugal,Viseu_Castro Daire,67.8
+4690,Viseu,Cinfães,Portugal,Viseu_Cinfães,64.1
+5100,Viseu,Lamego,Portugal,Viseu_Lamego,83.6
+3530,Viseu,Mangualde,Portugal,Viseu_Mangualde,85.4
+3534,Viseu,Mangualde,Portugal,Viseu_Mangualde,85.4
+3620,Viseu,Moimenta da Beira,Portugal,Viseu_Moimenta da Beira,72.8
+3624,Viseu,Moimenta da Beira,Portugal,Viseu_Moimenta da Beira,72.8
+3450,Viseu,Mortágua,Portugal,Viseu_Mortágua,80.2
+3525,Viseu,Nelas,Portugal,Viseu_Nelas,79.3
+3520,Viseu,Nelas,Portugal,Viseu_Nelas,79.3
+3475,Viseu,Oliveira de Frades,Portugal,Viseu_Oliveira de Frades,81.1
+3680,Viseu,Oliveira de Frades,Portugal,Viseu_Oliveira de Frades,81.1
+3550,Viseu,Penalva do Castelo,Portugal,Viseu_Penalva do Castelo,65.8
+3630,Viseu,Penedono,Portugal,Viseu_Penedono,66.1
+4660,Viseu,Resende,Portugal,Viseu_Resende,65.7
+4664,Viseu,Resende,Portugal,Viseu_Resende,65.7
+3440,Viseu,Santa Comba Dão,Portugal,Viseu_Santa Comba Dão,75
+5130,Viseu,São João da Pesqueira,Portugal,Viseu_São João da Pesqueira,69.2
+3660,Viseu,São Pedro do Sul,Portugal,Viseu_São Pedro do Sul,73.7
+3560,Viseu,Sátão,Portugal,Viseu_Sátão,70.4
+3650,Viseu,Sátão,Portugal,Viseu_Sátão,70.4
+3640,Viseu,Sernancelhe,Portugal,Viseu_Sernancelhe,64.3
+3620,Viseu,Sernancelhe,Portugal,Viseu_Sernancelhe,64.3
+5120,Viseu,Tabuaço,Portugal,Viseu_Tabuaço,64.1
+3610,Viseu,Tarouca,Portugal,Viseu_Tarouca,70.2
+3465,Viseu,Tondela,Portugal,Viseu_Tondela,79.8
+3460,Viseu,Tondela,Portugal,Viseu_Tondela,79.8
+3475,Viseu,Tondela,Portugal,Viseu_Tondela,79.8
+3464,Viseu,Tondela,Portugal,Viseu_Tondela,79.8
+3650,Viseu,Vila Nova de Paiva,Portugal,Viseu_Vila Nova de Paiva,66.9
+3654,Viseu,Vila Nova de Paiva,Portugal,Viseu_Vila Nova de Paiva,66.9
+3515,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3519,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3510,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3503,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3505,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3500,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3504,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3514,Viseu,Viseu,Portugal,Viseu_Viseu,96.8
+3670,Viseu,Vouzela,Portugal,Viseu_Vouzela,68.9
