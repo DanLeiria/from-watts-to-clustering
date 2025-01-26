@@ -73,11 +73,12 @@ ggplot_silh_initial <- silh_score(matrix_input = matrix_elec,
 
 ggplot_silh_initial
 
-### ============================================================================
-# APPLY INITIAL K-SHAPE ALGORITHM IN THE DATA ----
-### ============================================================================
 
-# Description:
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# APPLY INITIAL K-SHAPE ALGORITHM IN THE DATA ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+### Description:
 # Apply k-Shape clustering technique using 4 clusters.
 # Initial clustering (before outlier filtering).
 
@@ -101,11 +102,11 @@ df_ks_initial_comb <- ks_initial_results$kshape_results
 ks_initial_results$kshape_plot
 
 
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # FILTER OUTLIERS BASED ON SBD DISTANCE ----
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Description:
+### Description:
 # Filter time-series where their SBD with the centroid is
 # higher than a specific limit.
 
@@ -166,12 +167,11 @@ df_ks_condition %>%
 
 
 
-
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # PREPARE DATAFRAME FOR THE CLUSTERING ALGORITHM ----
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Description:
+### Description:
 # The dataframe must be converted into a matrix where the rownames is poscodes.
 # The columns must be the month numbers (1-12).
 # The values inside the matrix must z-score standardized energy measurements.
@@ -187,11 +187,11 @@ rownames(matrix_elec_2) <- matrix_elec_2$postcodes # Set row names and remove th
 matrix_elec_2$postcodes <- NULL # Remove postcodes column.
 
 
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # OUTLIERS DATASET ----
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Description:
+### Description: 
 # Plot the time-series identified as outliers.
 
 ggplot_ks_outlier <- ggplot(
@@ -219,12 +219,11 @@ ggsave(filename = "figures/ks-outlier.png", plot = ggplot_ks_outlier, width = 8,
 
 
 
-
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # SILHOUETTE PLOTS - FILTERED DATA ----
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Description:
+### Description: 
 # Applying cvi methods into matrix, in order to find optimal number of clusters.
 # In this work, I selected to use inertia and silhouette methods.
 # Plot and save the results.
@@ -237,11 +236,11 @@ ggplot_silh_filter <- silh_score(matrix_input = matrix_elec_2,
 ggplot_silh_filter
 
 
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # APPLY K-SHAPE ALGORITHM IN THE FILTERED DATA ----
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Description:
+### Description:
 # Apply k-Shape clustering technique using 4 clusters.
 # Initial clustering (before outlier filtering).
 
@@ -264,12 +263,11 @@ df_ks_filter_comb <- ks_filter_results$kshape_results
 # Plot
 ks_filter_results$kshape_plot
 
-
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # SAVE FINAL DATASET ----
-### ============================================================================
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Description:
+### Description: 
 # Save dataset with the clustering results.
 
 
