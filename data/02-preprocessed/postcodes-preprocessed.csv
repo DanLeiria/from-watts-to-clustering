@@ -13,7 +13,7 @@ postcodes,district,county,country,district_county,lat,long
 4504,Aveiro,Espinho,Portugal,Aveiro_Espinho,40.2550161,-8.1197131
 3860,Aveiro,Estarreja,Portugal,Aveiro_Estarreja,40.74774145628352,-8.581865553340606
 3864,Aveiro,Estarreja,Portugal,Aveiro_Estarreja,40.74774145628352,-8.581865553340606
-3870,Aveiro,Murtosa,Portugal,Aveiro_Murtosa,40.72525652680332,-8.626509192311104
+3870,Aveiro,Murtosa,Portugal,Aveiro_Murtosa,40.7237055,-8.6310169
 3865,Aveiro,Estarreja,Portugal,Aveiro_Estarreja,40.74774145628352,-8.581865553340606
 3830,Aveiro,Ílhavo,Portugal,Aveiro_Ílhavo,40.60097945,-8.673881638932594
 3050,Aveiro,Mealhada,Portugal,Aveiro_Mealhada,40.3820855,-8.442101211113574
@@ -31,8 +31,8 @@ postcodes,district,county,country,district_county,lat,long
 4535,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,38.0439558,-7.854392350486331
 4500,Aveiro,Santa Maria da Feira,Portugal,Aveiro_Santa Maria da Feira,38.0439558,-7.854392350486331
 3701,Aveiro,São João da Madeira,Portugal,Aveiro_São João da Madeira,40.897404,-8.490683816868543
-3740,Aveiro,Sever do Vouga,Portugal,Aveiro_Sever do Vouga,40.73057185,-8.370092204141741
-3744,Aveiro,Sever do Vouga,Portugal,Aveiro_Sever do Vouga,40.73057185,-8.370092204141741
+3740,Aveiro,Sever do Vouga,Portugal,Aveiro_Sever do Vouga,40.731117850000004,-8.370686397720661
+3744,Aveiro,Sever do Vouga,Portugal,Aveiro_Sever do Vouga,40.731117850000004,-8.370686397720661
 3840,Aveiro,Vagos,Portugal,Aveiro_Vagos,40.553500299999996,-8.69891688842035
 3730,Aveiro,Vale de Cambra,Portugal,Aveiro_Vale de Cambra,40.8390621,-8.402303678879736
 3734,Aveiro,Vale de Cambra,Portugal,Aveiro_Vale de Cambra,40.8390621,-8.402303678879736
@@ -47,8 +47,8 @@ postcodes,district,county,country,district_county,lat,long
 7780,Beja,Castro Verde,Portugal,Beja_Castro Verde,37.7175134,-8.10258280558051
 7940,Beja,Cuba,Portugal,Beja_Cuba,38.1688973,-7.892582415471567
 7900,Beja,Ferreira do Alentejo,Portugal,Beja_Ferreira do Alentejo,38.052694200000005,-8.137049998474158
-7750,Beja,Mértola,Portugal,Beja_Mértola,37.98387897699075,-7.8483646674330485
-7754,Beja,Mértola,Portugal,Beja_Mértola,37.98387897699075,-7.8483646674330485
+7750,Beja,Mértola,Portugal,Beja_Mértola,37.9842369,-7.8484245
+7754,Beja,Mértola,Portugal,Beja_Mértola,37.9842369,-7.8484245
 7885,Beja,Moura,Portugal,Beja_Moura,40.2774107,-6.986589
 7875,Beja,Moura,Portugal,Beja_Moura,40.2774107,-6.986589
 7860,Beja,Moura,Portugal,Beja_Moura,40.2774107,-6.986589
@@ -57,7 +57,7 @@ postcodes,district,county,country,district_county,lat,long
 7665,Beja,Odemira,Portugal,Beja_Odemira,37.637745949999996,-8.596658769890816
 7645,Beja,Odemira,Portugal,Beja_Odemira,37.637745949999996,-8.596658769890816
 7670,Beja,Ourique,Portugal,Beja_Ourique,37.649306800000005,-8.227571523371154
-7830,Beja,Serpa,Portugal,Beja_Serpa,37.878961950000004,-7.540821602235044
+7830,Beja,Serpa,Portugal,Beja_Serpa,37.94389355,-7.598535203684587
 7960,Beja,Vidigueira,Portugal,Beja_Vidigueira,38.208623349999996,-7.8014092429268835
 4720,Braga,Amares,Portugal,Braga_Amares,41.63119345,-8.34888765257488
 4750,Braga,Barcelos,Portugal,Braga_Barcelos,41.53245575,-8.618249942408191
@@ -74,8 +74,8 @@ postcodes,district,county,country,district_county,lat,long
 4719,Braga,Braga,Portugal,Braga_Braga,41.56983185,-8.305940894467813
 4890,Braga,Celorico de Basto,Portugal,Braga_Celorico de Basto,41.3315359,-8.035898570212952
 4740,Braga,Esposende,Portugal,Braga_Esposende,41.5333306,-8.780710679483596
-4820,Braga,Fafe,Portugal,Braga_Fafe,41.54217935,-8.16629353302866
-4824,Braga,Fafe,Portugal,Braga_Fafe,41.54217935,-8.16629353302866
+4820,Braga,Fafe,Portugal,Braga_Fafe,41.5189098,-8.102770622422069
+4824,Braga,Fafe,Portugal,Braga_Fafe,41.5189098,-8.102770622422069
 4810,Braga,Guimarães,Portugal,Braga_Guimarães,41.4471587,-8.288836286546829
 4805,Braga,Guimarães,Portugal,Braga_Guimarães,41.4471587,-8.288836286546829
 4800,Braga,Guimarães,Portugal,Braga_Guimarães,41.4471587,-8.288836286546829
@@ -104,9 +104,9 @@ postcodes,district,county,country,district_county,lat,long
 5340,Bragança,Macedo de Cavaleiros,Portugal,Bragança_Macedo de Cavaleiros,41.53087972522448,-6.960950007034754
 5225,Bragança,Miranda do Douro,Portugal,Bragança_Miranda do Douro,41.48942005000001,-6.264130212520131
 5210,Bragança,Miranda do Douro,Portugal,Bragança_Miranda do Douro,41.48942005000001,-6.264130212520131
-5370,Bragança,Mirandela,Portugal,Bragança_Mirandela,41.5034584,-7.168360820352387
-5385,Bragança,Mirandela,Portugal,Bragança_Mirandela,41.5034584,-7.168360820352387
-5374,Bragança,Mirandela,Portugal,Bragança_Mirandela,41.5034584,-7.168360820352387
+5370,Bragança,Mirandela,Portugal,Bragança_Mirandela,41.474851099999995,-7.181238010762566
+5385,Bragança,Mirandela,Portugal,Bragança_Mirandela,41.474851099999995,-7.181238010762566
+5374,Bragança,Mirandela,Portugal,Bragança_Mirandela,41.474851099999995,-7.181238010762566
 5200,Bragança,Mogadouro,Portugal,Bragança_Mogadouro,41.3275372,-6.708026371672676
 5204,Bragança,Mogadouro,Portugal,Bragança_Mogadouro,41.3275372,-6.708026371672676
 5160,Bragança,Torre de Moncorvo,Portugal,Bragança_Torre de Moncorvo,41.1720971,-7.055233442032938
@@ -150,8 +150,8 @@ postcodes,district,county,country,district_county,lat,long
 3080,Coimbra,Figueira da Foz,Portugal,Coimbra_Figueira da Foz,40.1564582,-8.872085268978692
 3094,Coimbra,Figueira da Foz,Portugal,Coimbra_Figueira da Foz,40.1564582,-8.872085268978692
 3084,Coimbra,Figueira da Foz,Portugal,Coimbra_Figueira da Foz,40.1564582,-8.872085268978692
-3330,Coimbra,Góis,Portugal,Coimbra_Góis,41.8981026,-8.7900568
-3334,Coimbra,Góis,Portugal,Coimbra_Góis,41.8981026,-8.7900568
+3330,Coimbra,Góis,Portugal,Coimbra_Góis,41.9067856,-8.7760641
+3334,Coimbra,Góis,Portugal,Coimbra_Góis,41.9067856,-8.7760641
 3200,Coimbra,Lousã,Portugal,Coimbra_Lousã,39.942631500000005,-7.359817325021125
 3070,Coimbra,Mira,Portugal,Coimbra_Mira,38.053014,-8.026017
 3074,Coimbra,Mira,Portugal,Coimbra_Mira,38.053014,-8.026017
@@ -164,7 +164,7 @@ postcodes,district,county,country,district_county,lat,long
 3360,Coimbra,Penacova,Portugal,Coimbra_Penacova,41.7664844,-8.2839984
 3230,Coimbra,Penela,Portugal,Coimbra_Penela,40.900695150000004,-7.304183422680138
 3234,Coimbra,Penela,Portugal,Coimbra_Penela,40.900695150000004,-7.304183422680138
-3420,Coimbra,Tábua,Portugal,Coimbra_Tábua,37.30342202249925,-7.474341017447574
+3420,Coimbra,Tábua,Portugal,Coimbra_Tábua,37.3034074,-7.4729373
 3350,Coimbra,Vila Nova de Poiares,Portugal,Coimbra_Vila Nova de Poiares,40.21379035,-8.266190934173135
 7250,Évora,Alandroal,Portugal,Évora_Alandroal,38.634187499999996,-7.335932717059611
 7154,Évora,Borba,Portugal,Évora_Borba,41.331519099999994,-8.129394476295701
@@ -257,7 +257,7 @@ postcodes,district,county,country,district_county,lat,long
 9024,Ilha da Madeira,Funchal,Portugal,Ilha da Madeira_Funchal,37.1116499,-8.7096269
 9200,Ilha da Madeira,Machico,Portugal,Ilha da Madeira_Machico,32.71365005,-16.766455967196322
 9225,Ilha da Madeira,Machico,Portugal,Ilha da Madeira_Machico,32.71365005,-16.766455967196322
-9360,Ilha da Madeira,Ponta do Sol,Portugal,Ilha da Madeira_Ponta do Sol,32.701058786793155,-17.088062778275564
+9360,Ilha da Madeira,Ponta do Sol,Portugal,Ilha da Madeira_Ponta do Sol,32.7008622,-17.0881389
 9270,Ilha da Madeira,Porto Moniz,Portugal,Ilha da Madeira_Porto Moniz,32.859769099999994,-17.188727837912634
 9350,Ilha da Madeira,Ribeira Brava,Portugal,Ilha da Madeira_Ribeira Brava,37.2101183,-8.6481045
 9135,Ilha da Madeira,Santa Cruz,Portugal,Ilha da Madeira_Santa Cruz,41.9041733,-6.957427432501705
@@ -281,12 +281,12 @@ postcodes,district,county,country,district_county,lat,long
 9555,Ilha de São Miguel,Ponta Delgada,Portugal,Ilha de São Miguel_Ponta Delgada,37.74757445,-25.672678266146384
 9650,Ilha de São Miguel,Povoação,Portugal,Ilha de São Miguel_Povoação,41.3438762,-8.606842112923108
 9675,Ilha de São Miguel,Povoação,Portugal,Ilha de São Miguel_Povoação,41.3438762,-8.606842112923108
-9600,Ilha de São Miguel,Ribeira Grande,Portugal,Ilha de São Miguel_Ribeira Grande,39.43749605138224,-31.249073014407454
-9625,Ilha de São Miguel,Ribeira Grande,Portugal,Ilha de São Miguel_Ribeira Grande,39.43749605138224,-31.249073014407454
+9600,Ilha de São Miguel,Ribeira Grande,Portugal,Ilha de São Miguel_Ribeira Grande,39.4374289,-31.2488764
+9625,Ilha de São Miguel,Ribeira Grande,Portugal,Ilha de São Miguel_Ribeira Grande,39.4374289,-31.2488764
 9680,Ilha de São Miguel,Vila Franca do Campo,Portugal,Ilha de São Miguel_Vila Franca do Campo,37.722167049999996,-25.435799400251383
 9684,Ilha de São Miguel,Vila Franca do Campo,Portugal,Ilha de São Miguel_Vila Franca do Campo,37.722167049999996,-25.435799400251383
-9700,Ilha Terceira,Angra do Heroísmo,Portugal,Ilha Terceira_Angra do Heroísmo,38.6600689,-27.205433457988885
-9701,Ilha Terceira,Angra do Heroísmo,Portugal,Ilha Terceira_Angra do Heroísmo,38.6600689,-27.205433457988885
+9700,Ilha Terceira,Angra do Heroísmo,Portugal,Ilha Terceira_Angra do Heroísmo,38.65938545,-27.214294631582398
+9701,Ilha Terceira,Angra do Heroísmo,Portugal,Ilha Terceira_Angra do Heroísmo,38.65938545,-27.214294631582398
 2460,Leiria,Alcobaça,Portugal,Leiria_Alcobaça,39.550219,-8.975359035947783
 2461,Leiria,Alcobaça,Portugal,Leiria_Alcobaça,39.550219,-8.975359035947783
 2475,Leiria,Alcobaça,Portugal,Leiria_Alcobaça,39.550219,-8.975359035947783
@@ -326,9 +326,9 @@ postcodes,district,county,country,district_county,lat,long
 2480,Leiria,Porto de Mós,Portugal,Leiria_Porto de Mós,39.6033851,-8.817835580587275
 2485,Leiria,Porto de Mós,Portugal,Leiria_Porto de Mós,39.6033851,-8.817835580587275
 2484,Leiria,Porto de Mós,Portugal,Leiria_Porto de Mós,39.6033851,-8.817835580587275
-2580,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,39.047051173352415,-8.94438325580149
-2581,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,39.047051173352415,-8.94438325580149
-2584,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,39.047051173352415,-8.94438325580149
+2580,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,39.0712401,-9.0407762
+2581,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,39.0712401,-9.0407762
+2584,Lisboa,Alenquer,Portugal,Lisboa_Alenquer,39.0712401,-9.0407762
 2650,Lisboa,Amadora,Portugal,Lisboa_Amadora,38.74209215,-9.236292429990543
 2614,Lisboa,Amadora,Portugal,Lisboa_Amadora,38.74209215,-9.236292429990543
 2610,Lisboa,Amadora,Portugal,Lisboa_Amadora,38.74209215,-9.236292429990543
@@ -475,15 +475,15 @@ postcodes,district,county,country,district_county,lat,long
 2628,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,38.91530375,-9.068475032862708
 2629,Lisboa,Vila Franca de Xira,Portugal,Lisboa_Vila Franca de Xira,38.91530375,-9.068475032862708
 7340,Portalegre,Arronches,Portugal,Portalegre_Arronches,39.2951011,-7.3375717
-7480,Portalegre,Avis,Portugal,Portalegre_Avis,39.053308082471766,-7.734769930279892
-7370,Portalegre,Campo Maior,Portugal,Portalegre_Campo Maior,38.97436871220936,-7.086125350330465
-7374,Portalegre,Campo Maior,Portugal,Portalegre_Campo Maior,38.97436871220936,-7.086125350330465
+7480,Portalegre,Avis,Portugal,Portalegre_Avis,39.05629712951984,-7.87269200282509
+7370,Portalegre,Campo Maior,Portugal,Portalegre_Campo Maior,38.945179,-7.0462651
+7374,Portalegre,Campo Maior,Portugal,Portalegre_Campo Maior,38.945179,-7.0462651
 7320,Portalegre,Castelo de Vide,Portugal,Portalegre_Castelo de Vide,39.4176004,-7.4578714
 7430,Portalegre,Crato,Portugal,Portalegre_Crato,39.2676095,-7.606128254998017
 7350,Portalegre,Elvas,Portugal,Portalegre_Elvas,38.8820427,-7.163896
 7354,Portalegre,Elvas,Portugal,Portalegre_Elvas,38.8820427,-7.163896
-7460,Portalegre,Fronteira,Portugal,Portalegre_Fronteira,37.239133660195705,-7.798570367432024
-7464,Portalegre,Fronteira,Portugal,Portalegre_Fronteira,37.239133660195705,-7.798570367432024
+7460,Portalegre,Fronteira,Portugal,Portalegre_Fronteira,40.0295876,-8.5798334
+7464,Portalegre,Fronteira,Portugal,Portalegre_Fronteira,40.0295876,-8.5798334
 6040,Portalegre,Gavião,Portugal,Portalegre_Gavião,41.870707,-7.7295705
 7330,Portalegre,Marvão,Portugal,Portalegre_Marvão,39.3969281,-7.3799726
 7450,Portalegre,Monforte,Portugal,Portalegre_Monforte,41.7610377,-7.315628442349986
@@ -492,7 +492,7 @@ postcodes,district,county,country,district_county,lat,long
 7400,Portalegre,Ponte de Sor,Portugal,Portalegre_Ponte de Sor,39.2773464,-8.001459055064965
 7300,Portalegre,Portalegre,Portugal,Portalegre_Portalegre,39.2076447,-7.721513354015343
 7301,Portalegre,Portalegre,Portugal,Portalegre_Portalegre,39.2076447,-7.721513354015343
-7470,Portalegre,Sousel,Portugal,Portalegre_Sousel,38.999739149999996,-7.69292585
+7470,Portalegre,Sousel,Portugal,Portalegre_Sousel,38.9996471,-7.6927829
 4600,Porto,Amarante,Portugal,Porto_Amarante,41.274466000000004,-8.08550523407602
 4605,Porto,Amarante,Portugal,Porto_Amarante,41.274466000000004,-8.08550523407602
 4615,Porto,Amarante,Portugal,Porto_Amarante,41.274466000000004,-8.08550523407602
@@ -567,7 +567,7 @@ postcodes,district,county,country,district_county,lat,long
 2384,Santarém,Alcanena,Portugal,Santarém_Alcanena,39.45861445,-8.67297820566442
 2395,Santarém,Alcanena,Portugal,Santarém_Alcanena,39.45861445,-8.67297820566442
 2080,Santarém,Almeirim,Portugal,Santarém_Almeirim,39.1422324,-8.5866462
-2090,Santarém,Alpiarça,Portugal,Santarém_Alpiarça,39.23977543968047,-8.615785430358363
+2090,Santarém,Alpiarça,Portugal,Santarém_Alpiarça,39.2380278,-8.6163666
 2130,Santarém,Benavente,Portugal,Santarém_Benavente,38.9245103,-8.759911683213886
 2135,Santarém,Benavente,Portugal,Santarém_Benavente,38.9245103,-8.759911683213886
 2890,Santarém,Benavente,Portugal,Santarém_Benavente,38.9245103,-8.759911683213886
@@ -584,7 +584,7 @@ postcodes,district,county,country,district_county,lat,long
 6120,Santarém,Mação,Portugal,Santarém_Mação,39.5670954,-7.99171659186232
 2490,Santarém,Ourém,Portugal,Santarém_Ourém,39.6416122,-8.5924571
 2435,Santarém,Ourém,Portugal,Santarém_Ourém,39.6416122,-8.5924571
-2040,Santarém,Rio Maior,Portugal,Santarém_Rio Maior,39.32742585,-8.93279305
+2040,Santarém,Rio Maior,Portugal,Santarém_Rio Maior,39.3275283,-8.9327831
 2120,Santarém,Salvaterra de Magos,Portugal,Santarém_Salvaterra de Magos,39.03300225,-8.770602392658907
 2125,Santarém,Salvaterra de Magos,Portugal,Santarém_Salvaterra de Magos,39.03300225,-8.770602392658907
 2124,Santarém,Salvaterra de Magos,Portugal,Santarém_Salvaterra de Magos,39.03300225,-8.770602392658907
@@ -600,7 +600,7 @@ postcodes,district,county,country,district_county,lat,long
 2260,Santarém,Vila Nova da Barquinha,Portugal,Santarém_Vila Nova da Barquinha,39.46695175,-8.417387681707794
 7580,Setúbal,Alcácer do Sal,Portugal,Setúbal_Alcácer do Sal,38.40461415,-8.605437404764622
 7595,Setúbal,Alcácer do Sal,Portugal,Setúbal_Alcácer do Sal,38.40461415,-8.605437404764622
-2894,Setúbal,Alcochete,Portugal,Setúbal_Alcochete,38.75571340772487,-8.999249033520917
+2894,Setúbal,Alcochete,Portugal,Setúbal_Alcochete,38.7561582,-9.0011287
 2800,Setúbal,Almada,Portugal,Setúbal_Almada,38.678805,-9.160462324041578
 2804,Setúbal,Almada,Portugal,Setúbal_Almada,38.678805,-9.160462324041578
 2805,Setúbal,Almada,Portugal,Setúbal_Almada,38.678805,-9.160462324041578
@@ -646,7 +646,7 @@ postcodes,district,county,country,district_county,lat,long
 2929,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,38.29755455,-8.461611489923735
 2900,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,38.29755455,-8.461611489923735
 2904,Setúbal,Setúbal,Portugal,Setúbal_Setúbal,38.29755455,-8.461611489923735
-7520,Setúbal,Sines,Portugal,Setúbal_Sines,37.9453566,-8.811995266182858
+7520,Setúbal,Sines,Portugal,Setúbal_Sines,37.93927385,-8.786902268883797
 4970,Viana do Castelo,Arcos de Valdevez,Portugal,Viana do Castelo_Arcos de Valdevez,41.8475106,-8.420169852304
 4974,Viana do Castelo,Arcos de Valdevez,Portugal,Viana do Castelo_Arcos de Valdevez,41.8475106,-8.420169852304
 4910,Viana do Castelo,Caminha,Portugal,Viana do Castelo_Caminha,41.876875749999996,-8.84222336746214
@@ -670,8 +670,8 @@ postcodes,district,county,country,district_county,lat,long
 5070,Vila Real,Alijó,Portugal,Vila Real_Alijó,41.27311495,-7.475751173959678
 5085,Vila Real,Alijó,Portugal,Vila Real_Alijó,41.27311495,-7.475751173959678
 5460,Vila Real,Boticas,Portugal,Vila Real_Boticas,41.697178,-7.674973845962594
-5400,Vila Real,Chaves,Portugal,Vila Real_Chaves,38.706676,-9.284354247453598
-5425,Vila Real,Chaves,Portugal,Vila Real_Chaves,38.706676,-9.284354247453598
+5400,Vila Real,Chaves,Portugal,Vila Real_Chaves,38.7072541,-9.283731619300378
+5425,Vila Real,Chaves,Portugal,Vila Real_Chaves,38.7072541,-9.283731619300378
 5040,Vila Real,Mesão Frio,Portugal,Vila Real_Mesão Frio,41.160636999999994,-7.890530886702928
 4880,Vila Real,Mondim de Basto,Portugal,Vila Real_Mondim de Basto,41.408055649999994,-7.958375893865757
 5470,Vila Real,Montalegre,Portugal,Vila Real_Montalegre,41.822440900000004,-7.783824703325438
@@ -697,8 +697,8 @@ postcodes,district,county,country,district_county,lat,long
 3620,Viseu,Moimenta da Beira,Portugal,Viseu_Moimenta da Beira,40.98393635,-7.614401980165889
 3624,Viseu,Moimenta da Beira,Portugal,Viseu_Moimenta da Beira,40.98393635,-7.614401980165889
 3450,Viseu,Mortágua,Portugal,Viseu_Mortágua,40.37612185,-8.210333082577721
-3525,Viseu,Nelas,Portugal,Viseu_Nelas,40.738024049058424,-7.856070653362222
-3520,Viseu,Nelas,Portugal,Viseu_Nelas,40.738024049058424,-7.856070653362222
+3525,Viseu,Nelas,Portugal,Viseu_Nelas,40.7376086,-7.8567884
+3520,Viseu,Nelas,Portugal,Viseu_Nelas,40.7376086,-7.8567884
 3680,Viseu,Oliveira de Frades,Portugal,Viseu_Oliveira de Frades,40.725496750000005,-8.183912315118784
 3630,Viseu,Penedono,Portugal,Viseu_Penedono,40.9831056,-7.390532490896566
 4660,Viseu,Resende,Portugal,Viseu_Resende,41.89929345,-8.567106718194866
@@ -706,8 +706,8 @@ postcodes,district,county,country,district_county,lat,long
 3440,Viseu,Santa Comba Dão,Portugal,Viseu_Santa Comba Dão,40.3896887,-8.147848978408204
 5130,Viseu,São João da Pesqueira,Portugal,Viseu_São João da Pesqueira,41.14216785,-7.413788551003492
 3660,Viseu,São Pedro do Sul,Portugal,Viseu_São Pedro do Sul,40.7613249,-8.057453059592005
-3560,Viseu,Sátão,Portugal,Viseu_Sátão,40.658902046673475,-7.8180287170466425
-3650,Viseu,Sátão,Portugal,Viseu_Sátão,40.658902046673475,-7.8180287170466425
+3560,Viseu,Sátão,Portugal,Viseu_Sátão,40.659693,-7.8174711
+3650,Viseu,Sátão,Portugal,Viseu_Sátão,40.659693,-7.8174711
 3640,Viseu,Sernancelhe,Portugal,Viseu_Sernancelhe,40.9012084,-7.4955
 5120,Viseu,Tabuaço,Portugal,Viseu_Tabuaço,40.986967199999995,-7.53573801233753
 3610,Viseu,Tarouca,Portugal,Viseu_Tarouca,41.006715,-7.784047207595763

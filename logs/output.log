@@ -1,0 +1,9 @@
+
+INFO [2025-01-28 23:14:25] All libraries loaded successfully.
+INFO [2025-01-28 23:14:25] Loaded settings.
+INFO [2025-01-28 23:14:25] Preprocessing started.
+INFO [2025-01-28 23:14:27] Loaded files.
+INFO [2025-01-28 23:19:44] Postcodes dataset preprocessed.
+INFO [2025-01-28 23:19:44] The total number postcodes regarding electricity data preprocessed.
+INFO [2025-01-28 23:20:30] Weather data preprocessed.
+INFO [2025-01-28 23:20:35] Preprocessing complete.

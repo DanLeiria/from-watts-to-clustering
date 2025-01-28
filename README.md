@@ -15,7 +15,7 @@ Energy distribution management; Clustering algorithms; Customers segmentation; E
 - Electricity end-users per region (2022): [PORDATA](https://www.pordata.pt/municipios/consumidores+de+energia+eletrica+total+e+por+tipo+de+consumo-18) (file: _elec_energy_by_type_portugal_2022.xlsx_)
 
 Weather data of 2023:
-- Mean air temperature in $\degree\text{C} (altitude 2 meters)$: https://power.larc.nasa.gov/data-access-viewer/
+- Mean air temperature in $\degree\text{C}$ (altitude 2 meters): https://power.larc.nasa.gov/data-access-viewer/
 
 ## Methodology:
 FIGURE XXX

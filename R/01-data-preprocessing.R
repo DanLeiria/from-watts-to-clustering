@@ -28,7 +28,10 @@ rm(list = ls())
 # Call project libraries and settings
 source("R/00-library.R")
 source("R/00-settings.R")
+flog.info("Loaded settings.")
 
+
+flog.info("Preprocessing started.")
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # LOAD DATA ----
@@ -94,7 +97,7 @@ df_original_purchasing_power <- read_excel(filename_purchasing_power)
 filename_population <- "data/01-input/population-number-portugal-2023.xlsx"
 df_original_population <- read_excel(filename_population)
 
-
+flog.info("Loaded files.")
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # PREPROCESS POSCODES DATASET ----
@@ -251,7 +254,13 @@ df_postcodes_cleaned$long[df_postcodes_cleaned$county == "Mafra"] <- -9.3282374
 # This is observed by NA values in latitude and longitude
 df_postcodes_cleaned <- df_postcodes_cleaned %>% filter(!(is.na(lat) | is.na(long)))
 
-print(paste("The total number of rows of postcodes on the Portuguese location dataset (cleaned - final) is:", nrow(df_postcodes_cleaned)))
+if (nrow(df_postcodes_cleaned) < 50) {
+  print(paste("The total number of rows of postcodes on the Portuguese location dataset (cleaned - final) is:", nrow(df_postcodes_cleaned)))
+  flog.warn("The total number postcodes preprocessed is lower than 50.")
+} else {
+  print(paste("The total number of rows of postcodes on the Portuguese location dataset (cleaned - final) is:", nrow(df_postcodes_cleaned)))
+  flog.info("Postcodes dataset preprocessed.")
+}
 
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -270,9 +279,6 @@ df_original_group <- df_original %>%
   filter(number_months == 12)
 
 
-print(paste("The total number of rows of postcodes on the Portuguese electricity dataset is:", nrow(df_original_group)))
-
-
 # Filter out all postcodes with less than 12 months measurements.
 df_electricity <- df_original %>%
   filter(postcodes %in% df_original_group$postcodes) %>%
@@ -285,6 +291,14 @@ df_electricity <- df_electricity %>%
   mutate(energy_standardized = (energy_kwh - mean(energy_kwh)) / (sd(energy_kwh))) %>%
   ungroup()
 
+
+if (nrow(df_original_group) < 50) {
+  print(paste("The total number of rows of postcodes on the Portuguese electricity dataset is:", nrow(df_original_group)))
+  flog.warn("The total number postcodes preprocessed regarding electricity data is lower than 50.")
+} else {
+  print(paste("The total number of rows of postcodes on the Portuguese location dataset (cleaned - final) is:", nrow(df_postcodes_cleaned)))
+  flog.info("The total number postcodes regarding electricity data is preprocessed.")
+}
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # COMBINE DATASETS WITH THEIR ASSOCIATED LOCATION AND POSTCODE ----
@@ -324,7 +338,7 @@ df_weather <- read.csv(filename_weather, sep = ",") %>%
   filter(country == "Portugal" & !is.na(county)) %>%
   distinct(county, .keep_all = TRUE)
   
-
+flog.info("Weather data preprocessed.")
 
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -381,3 +395,6 @@ write_csv(df_population, filename_8)
 
 filename_9 <- "data/02-preprocessed/weather-preprocessed.csv"
 write_csv(df_weather, filename_9)
+
+flog.info("Preprocessing complete.")
+

@@ -26,7 +26,6 @@
 cat("\014")
 rm(list = ls())
 
-
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # LIBRARY ----
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -45,6 +44,12 @@ required_libraries <- c(
   
   # Code profiling
   "profvis",
+  
+  # Directory tree in R
+  "fs",
+  
+  # Script logs
+  "futile.logger",
   
   # Read files
   "readxl", "readr",
@@ -74,6 +79,7 @@ required_libraries <- c(
 # Install missing libraries automatically
 install_if_missing <- function(packages) {
 missing_packages <- packages[!(packages %in% installed.packages()[, "Package"])]
+
 if (length(missing_packages)) {
   message("Installing missing packages: ", paste(missing_packages, collapse = ", "))
   install.packages(missing_packages)
@@ -93,7 +99,10 @@ if (any(!loaded_libraries)) {
   stop("Error: Some required libraries failed to load: ", 
     paste(names(loaded_libraries[!loaded_libraries]), collapse = ", "))
 } else {
-  message("All libraries loaded successfully.")
+  # Clear log file before each run
+  write("", file = "logs/output.log")  
+  flog.appender(appender.file("logs/output.log")) 
+  flog.info("All libraries loaded successfully.")
 }
 
 
@@ -101,3 +110,7 @@ if (any(!loaded_libraries)) {
 # Set all locale settings to English.
 Sys.setenv(LANG = "en")
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
+
+# Directory tree in R
+fs::dir_tree(path = ".", recurse = 1)
+
