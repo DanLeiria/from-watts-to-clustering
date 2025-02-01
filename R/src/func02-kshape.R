@@ -97,7 +97,7 @@ ggplot_ks_cluster <- ggplot(df_ks_cluster_comb, aes(x = month, y = energy_standa
   ) +
   scale_x_continuous(breaks = 1:12, limits = c(1, 12))
 
-ggsave(filename = paste("figures/", figure_name), plot = ggplot_ks_cluster, width = 8, height = 6, dpi = 300)
+ggsave(filename = paste0("figures/", figure_name), plot = ggplot_ks_cluster, width = 8, height = 6, dpi = 300)
 
 return(list(sbd_values = df_sbd,
             kshape_results = df_ks_cluster_comb,

@@ -21,7 +21,7 @@
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Call library and settings
-# source("R/00-library.R")
+source("R/00-library.R")
 source("R/00-settings.R")
 
 # Call functions

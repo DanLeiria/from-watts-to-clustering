@@ -86,7 +86,7 @@ silh_score <- function(matrix_input,
              vjust = -1.2, hjust = 0.2, color = "red") +
     geom_point(data = segment_df, aes(x = nr_cluster_max, y = sil_max), color = "red", size = 4)
   
-  ggsave(filename = paste("figures/", figure_name), plot = ggplot_silh, width = 8, height = 6, dpi = 300)
+  ggsave(filename = paste0("figures/", figure_name), plot = ggplot_silh, width = 8, height = 6, dpi = 300)
   
   return(ggplot_silh)
   

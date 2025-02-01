@@ -53,7 +53,7 @@ df_clust$centroid[df_clust$sbd_condition == "Outlier"] <- 5
 
 desired_order <- c(
   "Summer peak (1)",
-  "Winter/Summer peaks (2)",
+  "Winter/ Summer peaks (2)",
   "Summer break (3)",
   "Winter peak (4)",
   "Outlier (5)"
