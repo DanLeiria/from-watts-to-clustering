@@ -73,7 +73,10 @@ required_libraries <- c(
   "dtwclust",
   
   # Convert the dataframe into a matrix
-  "reshape2"
+  "reshape2",
+  
+  # Strings manipulation
+  "stringi"
 ) 
 
 # Install missing libraries automatically
