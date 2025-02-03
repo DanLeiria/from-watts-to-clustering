@@ -92,11 +92,13 @@ df_electricity <- df_elect %>%
   inner_join(df_clust, by = c("postcodes", "month"))
 
 ### GeoJSON file - Portugal
+# District
 geojson_data <- st_read("data/01-input/portugal-with-regions.geojson")
+# County
+geojson_county <- st_read("data/01-input/portugal-with-counties.geojson")
 
 
 ### Load weather data
-
 df_weather <- read.csv("data/02-preprocessed/weather-preprocessed.csv")
 
 
@@ -286,16 +288,16 @@ ggsave(filename = "figures/combined-total-energy.png", plot = combined_ggplot_to
 
 
 
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# PLOT CORRELATION BETWEEN POWER PURCHASE AND ENERGY USAGE (DISTRICT) ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### ============================================================================
-# PLOT CORRELATION BETWEEN POWER PURCHASE AND ENERGY USAGE ----
-### ============================================================================
-
-
-my_breaks <- c(170000, 2400000, 4700000, 9400000, 44500000)
+my_breaks <- c(150000, 675000, 1200000, 1725000, 2250000)
 
 
 df_district_info <- df_portugal_info %>%
+  dplyr::select(-postcodes) %>% 
+  distinct() %>% 
   group_by(district) %>%
   summarise(
     population_numbers = sum(population_numbers),
@@ -354,6 +356,188 @@ ggplot_corr_energy_purchase <- ggplot(
 ggplot_corr_energy_purchase
 
 ggsave(filename = "figures/corr-energy-purchase.png", plot = ggplot_corr_energy_purchase, width = 8, height = 6, dpi = 300)
+
+
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# PLOT CORRELATION BETWEEN POWER PURCHASE AND ENERGY USAGE (DISTRICT) ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+my_breaks <- c(150000, 675000, 1200000, 1725000, 2250000)
+
+df_district_info <- df_portugal_info %>%
+  dplyr::select(-postcodes) %>% 
+  distinct() %>% 
+  group_by(district) %>%
+  summarise(
+    population_numbers = sum(population_numbers),
+    purchasing_power_per_capita = mean(purchasing_power_per_capita)
+  )
+
+df_data <- df_electricity %>%
+  group_by(district) %>%
+  summarise(total_energy_kwh = sum(energy_kwh)) %>%
+  left_join(df_district_info)
+
+ggplot_corr_district_energy_purchase <- ggplot(
+  df_data,
+  aes(
+    x = log10(purchasing_power_per_capita),
+    y = log10(total_energy_kwh / population_numbers)
+  )
+) +
+  geom_point(
+    data = df_data,
+    aes(
+      fill = total_energy_kwh / 1000000000,
+      size = population_numbers
+    ),
+    shape = 21
+  ) +
+  geom_smooth(method = "gam", se = FALSE, color = "lightblue4", linewidth = 1.5) +
+  geom_label_repel(aes(label = district),
+                   size = 3.5,
+                   max.overlaps = nrow(df_data)
+  ) +
+  scale_size_continuous(
+    range = c(0.7, 15),
+    breaks = my_breaks,
+    labels = custom_labels
+  ) +
+  theme_classic() +
+  scale_fill_distiller(palette = "RdBu", direction = -1) +
+  theme(
+    legend.position = "right",
+    legend.background = element_rect(colour = "black"),
+    panel.grid.major.x = element_line(color = "grey", linewidth = 0.2), # Adding grid lines only for the y-axis
+    panel.grid.major.y = element_line(color = "grey", linewidth = 0.2), # Adding grid lines only for the y-axis
+    panel.grid.minor.x = element_line(color = "grey", linewidth = 0.2, linetype = "dashed"),
+    panel.grid.minor.y = element_line(color = "grey", linewidth = 0.2, linetype = "dashed"),
+  ) +
+  labs(
+    x = "Total purchasing power per capita (log)",
+    y = "Total energy usage in kWh per capita of the district (log)",
+    fill = "Yearly energy \nusage [TW]:",
+    size = "District \npopulation:"
+  )
+
+ggplot_corr_district_energy_purchase
+
+ggsave(filename = "figures/corr-district-energy-purchase.png", plot = ggplot_corr_district_energy_purchase, width = 8, height = 6, dpi = 300)
+
+
+
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# PLOT CORRELATION BETWEEN POWER PURCHASE AND ENERGY USAGE (COUNTY) ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+my_breaks <- c(150000, 675000, 1200000, 1725000, 2250000)
+
+
+df_county_info <- df_portugal_info %>%
+  dplyr::select(-postcodes) %>% 
+  distinct() %>% 
+  group_by(district, county) %>%
+  summarise(
+    population_numbers = sum(population_numbers),
+    purchasing_power_per_capita = mean(purchasing_power_per_capita)
+  )
+
+df_data <- df_electricity %>%
+  group_by(district, county) %>%
+  reframe(total_energy_kwh = sum(energy_kwh),
+            centroid = trunc(median(centroid))) %>%
+  left_join(df_county_info) 
+# %>% 
+#   mutate(energy_district = log10(total_energy_kwh/population_numbers),
+#          upper_outlier = quantile(energy_district, probs = 0.75, na.rm = TRUE) + )
+
+ggplot_corr_energy_purchase <- ggplot(
+  df_data,
+  aes(
+    x = log10(purchasing_power_per_capita),
+    y = log10(total_energy_kwh / population_numbers)
+  )
+) +
+  geom_point(
+    data = df_data,
+    aes(
+      # fill = total_energy_kwh / 1000000000,
+      fill = district,
+      size = population_numbers
+    ),
+    shape = 21
+  ) +
+  # geom_smooth(method = "gam", se = FALSE, color = "lightblue4", linewidth = 1.5) +
+  # geom_label_repel(aes(label = county),
+  #                  size = 3.5,
+  #                  max.overlaps = nrow(df_data)
+  # ) +
+  scale_size_continuous(
+    range = c(0.7, 15),
+    # breaks = my_breaks,
+    labels = custom_labels
+  ) +
+  theme_classic() +
+  # scale_fill_distiller(palette = "RdBu", direction = -1) +
+  theme(
+    legend.position = "right",
+    legend.background = element_rect(colour = "black"),
+    panel.grid.major.x = element_line(color = "grey", linewidth = 0.2), # Adding grid lines only for the y-axis
+    panel.grid.major.y = element_line(color = "grey", linewidth = 0.2), # Adding grid lines only for the y-axis
+    panel.grid.minor.x = element_line(color = "grey", linewidth = 0.2, linetype = "dashed"),
+    panel.grid.minor.y = element_line(color = "grey", linewidth = 0.2, linetype = "dashed"),
+  ) +
+  labs(
+    x = "Total purchasing power per capita (log)",
+    y = "Total energy usage in kWh per capita (log)",
+    fill = "Yearly energy \nusage [TW]:",
+    size = "District \npopulation:"
+  ) +
+  facet_wrap(~district)
+
+ggplot_corr_energy_purchase
+
+ggsave(filename = "figures/corr-energy-purchase.png", plot = ggplot_corr_energy_purchase, width = 8, height = 6, dpi = 300)
+
+
+
+
+
+
+plt_energy_per_county <- ggplot(df_data, aes(x = district, y = log10(total_energy_kwh/population_numbers))) +
+  geom_point(size = 2) +
+  geom_hline(yintercept = 3.3,
+             color = "red",
+             linetype = "dashed") +
+  geom_hline(yintercept = 4,
+             color = "red",
+             linetype = "dashed") +
+  geom_label_repel(data = df_data %>% filter(log10(total_energy_kwh/population_numbers) >= 4 |
+                                               log10(total_energy_kwh/population_numbers) <= 3.3),
+                   aes(label = county),
+                   size = 3.5,
+                   max.overlaps = nrow(df_data)) +
+  theme_classic() +
+  theme(legend.position = "right",
+        legend.background = element_rect(colour = "black"),
+        panel.grid.major.x = element_line(color = "grey", linewidth = 0.2), # Adding grid lines only for the y-axis
+        panel.grid.major.y = element_line(color = "grey", linewidth = 0.2), # Adding grid lines only for the y-axis
+        panel.grid.minor.x = element_line(color = "grey", linewidth = 0.2, linetype = "dashed"),
+        panel.grid.minor.y = element_line(color = "grey", linewidth = 0.2, linetype = "dashed")) +
+  coord_flip() + # This switch X and Y axis and allows to get the horizontal version
+  labs(
+    x = "District",
+    y = "Total energy usage in kWh per capita of the county (log)")
+
+plt_energy_per_county
+
+ggsave(filename = "figures/energy_per_county.png",
+       plot = plt_energy_per_county,
+       width = 8,
+       height = 6,
+       dpi = 300)
 
 
 
@@ -462,29 +646,70 @@ ggsave(filename = "figures/combined-shares-energy.png", plot = combined_ggplot_s
 ### ------------------------------------------------------------------------
 # PLOT STANDARDIZED TIME SERIES (CLUSTERS)
 ### ------------------------------------------------------------------------
-#
-# plt_cluster_ts <- ggplot(df_electricity, aes(x = month, y = energy_standardized)) +
-#   geom_line(data = df_electricity, aes(group = postcodes), color = 'grey', alpha = 0.5, size = 0.7) +
-#   geom_smooth(color = 'blue', size = 2, se = FALSE) +
-#   facet_wrap(~cluster_name) +
-#   theme_bw() +
-#   theme(legend.position="bottom",
-#         axis.title.x = element_text(size=14),
-#         axis.title.y = element_text(size=14),
-#         axis.text.x = element_text(size=12),
-#         axis.text.y = element_text(size=12),
-#         legend.title = element_text(size=14),
-#         legend.text = element_text(size=12),
-#         strip.text = element_text(size=14)) +
-#   scale_x_continuous(breaks = seq(1, 12, by = 1)) +
-#   ylab('Standardized energy [-]') +
-#   xlab('Month of the year')
-#
-# plt_cluster_ts
-#
-# ggsave(filename = "figures/plt-cluster-ts.png", plot = gg_cluster_ts, width = 8, height = 6, dpi = 300)
+
+df_total_energy <- df_electricity %>%
+  group_by(district, county) %>%
+  summarise(total_energy_kwh = sum(energy_kwh),
+            cluster_name = unique(cluster_name))
+
+geojson_county$Concelho <- stri_trans_general(stri_trans_tolower(geojson_county$Concelho), "Latin-ASCII")
+df_data$county <- stri_trans_general(stri_trans_tolower(df_data$county), "Latin-ASCII")
 
 
+my_sf_merged <- geojson_county %>%
+  left_join(df_data, by = c("Concelho" = "county"))
+
+plt_total_energy_map <- ggplot(my_sf_merged) +
+  geom_sf(aes(fill = log10(total_energy_kwh /population_numbers))) +
+  labs(
+    x = "Longitude",
+    y = "Latitude",
+    fill = "Yearly energy \nusage [TW]:"
+  ) +
+  theme_classic() +
+  scale_fill_distiller(palette = "RdBu", direction = -1) +
+  theme(
+    legend.position = "bottom",
+    legend.background = element_rect(colour = "black")
+  ) + 
+  ggrepel::geom_label_repel(
+    data = my_sf_merged %>% filter(log10(total_energy_kwh/population_numbers) >= 4 |
+                                     log10(total_energy_kwh/population_numbers) <= 3.3),
+    aes(label = Concelho,
+        geometry = geometry),
+    stat = "sf_coordinates",
+    min.segment.length = 0)
+
+
+plt_total_energy_map
+
+
+
+
+
+
+plt_cluster_map <- ggplot(my_sf_merged) +
+  geom_sf(aes(fill = as.factor(centroid))) +
+  labs(
+    x = "Longitude",
+    y = "Latitude",
+    fill = "Cluster:"
+  ) +
+  theme_classic() +
+  # scale_fill_distiller(palette = "RdBu", direction = -1) +
+  theme(
+    legend.position = "bottom",
+    legend.background = element_rect(colour = "black")
+  ) +
+  ggrepel::geom_label_repel(
+    data = my_sf_merged %>% filter(log10(total_energy_kwh/population_numbers) >= 4 |
+                                     log10(total_energy_kwh/population_numbers) <= 3.3),
+    aes(label = Concelho,
+        geometry = geometry),
+    stat = "sf_coordinates",
+    min.segment.length = 0)
+
+plt_cluster_map
 
 
 ### ============================================================================
