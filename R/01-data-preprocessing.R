@@ -15,22 +15,6 @@
 # Setup the packages needed for the specific project
 
 
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# SETUP ----
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-### Description:
-# Clears the console
-# Remove all variables of the work space
-cat("\014")
-rm(list = ls())
-
-# Call project libraries and settings
-source("R/00-library.R")
-source("R/00-settings.R")
-flog.info("Loaded settings.")
-
-
 flog.info("Preprocessing started.")
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

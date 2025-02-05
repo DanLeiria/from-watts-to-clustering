@@ -114,6 +114,7 @@ if (any(!loaded_libraries)) {
 Sys.setenv(LANG = "en")
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
 
+
 # Directory tree in R
-fs::dir_tree(path = ".", recurse = 1)
+# fs::dir_tree(path = ".", recurse = 1)
 

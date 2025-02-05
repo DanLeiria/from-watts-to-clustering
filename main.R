@@ -19,4 +19,20 @@
 # - Performes the clustering
 # - Creates the plots
 
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Clears the console
+# Remove all variables of the work space
+cat("\014")
+rm(list = ls())
+
+# Call project libraries and settings
+source("R/00-library.R")
+source("R/00-settings.R")
+flog.info("Loaded settings.")
+
+#source("R/01-data-preprocessing.R")
+# source("R/02-kshape-clustering.R")
+# source("R/03-analysis-and-visualization.R")
+
 
