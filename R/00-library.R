@@ -76,7 +76,11 @@ required_libraries <- c(
   "reshape2",
   
   # Strings manipulation
-  "stringi"
+  "stringi",
+  
+  # For percentage formatting
+  "scales"
+  
 ) 
 
 # Install missing libraries automatically
