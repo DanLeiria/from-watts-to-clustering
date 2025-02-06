@@ -32,5 +32,5 @@ clusters_interval <- 2:20L
 # Beta value used in Calikus et al.
 beta_val_calikus <- 3
 # SBD threshold for outlier assignment applied in the final solution
-sbd_limit_used <- 0.15
+sbd_limit_used <- 0.21
 
