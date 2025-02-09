@@ -8,14 +8,10 @@
 
 # Date:         2025-01-19
 
-# Script name:  01-data-preprocessing
-# R version:    4.4.1
- 
+# Script name:  01-data-preprocessing.R
+
 # Script Description:
 # Setup the packages needed for the specific project
-
-
-flog.info("Preprocessing started.")
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # LOAD DATA ----
@@ -54,13 +50,6 @@ df_postcodes <- read.csv(filename_post, encoding = "UTF-8") %>%
   mutate(
     country = "Portugal"
   )
-
-
-### Fetch the Portuguese industrial data from local computer
-
-filename_industry <- "data/01-input/industry-type-portugal-2022.xlsx"
-df_original_industry <- read_excel(filename_industry, sheet = "industry_type")
-df_original_industry_normalized <- read_excel(filename_industry, sheet = "industry_type_normalized")
 
 
 ### Fetch the Portuguese energy usage by sector from local computer
@@ -292,37 +281,12 @@ if (nrow(df_original_group) < 50) {
 # Combined the different datasets (county characteristics) with the postcodes dataset
 # I used the county name as the matching column
 
-
-df_industry <- df_postcodes_cleaned %>% left_join(df_original_industry, by = "county")
-df_industry_normalized <- df_postcodes %>% left_join(df_original_industry_normalized, by = "county")
-
 df_consumption_type <- df_postcodes %>% left_join(df_original_consumption_type, by = "county")
 df_consumption_type_normalized <- df_postcodes %>% left_join(df_original_consumption_type_normalized, by = "county")
 
 df_purchasing_power <- df_postcodes %>% left_join(df_original_purchasing_power, by = "county")
 
 df_population <- df_postcodes %>% left_join(df_original_population, by = "county")
-
-
-
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# PREPROCESSING WEATHER DATA ----
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-### Description: 
-# Load weather data
-# Get county's names based on latitude and longitude
-# Remove NAs and duplicates
-
-filename_weather <- "data/01-input/weather-temp-2022.csv"
-
-df_weather <- read.csv(filename_weather, sep = ",") %>%
-  reverse_geocode(lat = lat, long = long, method = "osm", full_results = TRUE) %>% 
-  select(1:15, county, country) %>% 
-  filter(country == "Portugal" & !is.na(county)) %>%
-  distinct(county, .keep_all = TRUE)
-  
-flog.info("Weather data preprocessed.")
 
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -342,43 +306,26 @@ filename_2 <- "data/02-preprocessed/postcodes-preprocessed.csv"
 write_csv(df_postcodes_cleaned, filename_2)
 
 
-### Industries dataset
-
-# Industries by counties dataset
-filename_3 <- "data/02-preprocessed/county-industries-preprocessed.csv"
-write_csv(df_industry, filename_3)
-
-# Industries by counties (normalized) dataset
-filename_4 <- "data/02-preprocessed/county-industries-normalized-preprocessed.csv"
-write_csv(df_industry_normalized, filename_4)
-
-
 ### Electricity usage by municipalities
 
 # Electricity usage by counties dataset
-filename_5 <- "data/02-preprocessed/county-consumption-preprocessed.csv"
-write_csv(df_consumption_type, filename_5)
+filename_3 <- "data/02-preprocessed/county-consumption-preprocessed.csv"
+write_csv(df_consumption_type, filename_3)
 
 # Electricity usage by counties (normalized) dataset
-filename_6 <- "data/02-preprocessed/county-consumption-normalized-preprocessed.csv"
-write_csv(df_consumption_type_normalized, filename_6)
-
+filename_4 <- "data/02-preprocessed/county-consumption-normalized-preprocessed.csv"
+write_csv(df_consumption_type_normalized, filename_4)
 
 ### Puchasing power per capita
 
-filename_7 <- "data/02-preprocessed/county-purchasing-power-preprocessed.csv"
-write_csv(df_purchasing_power, filename_7)
+filename_5 <- "data/02-preprocessed/county-purchasing-power-preprocessed.csv"
+write_csv(df_purchasing_power, filename_5)
 
 
 ### Portuguese population per county
 
-filename_8 <- "data/02-preprocessed/county-population-preprocessed.csv"
-write_csv(df_population, filename_8)
+filename_6 <- "data/02-preprocessed/county-population-preprocessed.csv"
+write_csv(df_population, filename_6)
 
-### Portugal's weather data
 
-filename_9 <- "data/02-preprocessed/weather-preprocessed.csv"
-write_csv(df_weather, filename_9)
-
-flog.info("Preprocessing complete.")
 

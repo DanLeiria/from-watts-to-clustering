@@ -9,14 +9,13 @@
 # Date:         2025-01-28
 
 # Script name:  main.R
-# R version:    4.4.1
- 
+
 # Script Description:
 # Main entry point for the ML project.
 # This script runs the full data pipeline:
 # - Loads raw data
-# - Preprocesses data
-# - Performes the clustering
+# - Preprocess data
+# - Performs clustering
 # - Creates the plots
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,17 +25,24 @@
 cat("\014")
 rm(list = ls())
 
+
 # Call project libraries and settings
 source("R/00-library.R")
 source("R/00-settings.R")
 flog.info("Loaded settings.")
 
-#source("R/01-data-preprocessing.R")
+flog.info("Preprocessing started.")
+source("R/01-data-preprocessing.R")
+flog.info("Preprocessing complete.")
+
+flog.info("Clustering started.")
 source("R/02-kshape-clustering.R")
 flog.info("Clustering complete.")
 
+flog.info("Analysis and plotting started.")
 source("R/03-analysis-and-visualization.R")
 flog.info("Analysis and plotting completed.")
 
+flog.info("Algorithm complete.")
 
 

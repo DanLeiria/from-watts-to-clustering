@@ -9,20 +9,15 @@
 # Date:         2025-01-19
 
 # Script name:  02-kshape-clustering.R
-# R version:    4.4.1
- 
+
 # Script Description:
 # Apply k-Shape clustering of the monthly time series measurements
 # Store the clusters group associated per geocode in the folder data/03-output-clusters
 
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# SETUP ----
+# SOURCE ----
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-# Call library and settings
-source("R/00-library.R")
-source("R/00-settings.R")
 
 # Call functions
 source("R/src/func01-silhouette-score.R")

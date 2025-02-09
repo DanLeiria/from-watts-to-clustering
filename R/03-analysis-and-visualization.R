@@ -9,8 +9,7 @@
 # Date:         2025-01-26
 
 # Script name:  03-analysis-and-visualization.R
-# R version:    4.4.1
- 
+
 # Script Description:
 # Plot and analysis of the clustering results
 # while comparing with Portugal characteristics
@@ -36,12 +35,12 @@ df_clust <- read.csv("data/03-output-clusters/electricity-kshape-clustered.csv")
 df_clust <- df_clust %>%
   mutate(
     cluster_name = ifelse(
-      centroid == 1, "Summer peak (1)",
+      centroid == 1, "Winter peak (1)",
       ifelse(
-        centroid == 2, "Winter/Summer peaks (2)",
+        centroid == 2, "Summer peak (2)",
         ifelse(
           centroid == 3, "Summer break (3)",
-          "Winter peak (4)"
+          "Winter/Summer peaks (4)"
         )
       )
     )
@@ -52,10 +51,10 @@ df_clust$centroid[df_clust$sbd_condition == "Outlier"] <- 5
 
 
 desired_order <- c(
-  "Summer peak (1)",
-  "Winter/Summer peaks (2)",
+  "Winter peak (1)",
+  "Summer peak (2)",
   "Summer break (3)",
-  "Winter peak (4)",
+  "Winter/Summer peaks (4)",
   "Outlier (5)"
 )
 
@@ -68,8 +67,6 @@ df_postcodes <- read.csv("data/02-preprocessed/postcodes-preprocessed.csv")
 
 df_county_consumption_normalized <- read.csv("data/02-preprocessed/county-consumption-normalized-preprocessed.csv")
 
-df_county_industries_normalized <- read.csv("data/02-preprocessed/county-industries-normalized-preprocessed.csv")
-
 df_county_purchasing_power <- read.csv("data/02-preprocessed/county-purchasing-power-preprocessed.csv")
 
 df_county_population <- read.csv("data/02-preprocessed/county-population-preprocessed.csv")
@@ -78,8 +75,7 @@ df_county_population <- read.csv("data/02-preprocessed/county-population-preproc
 df_portugal_info <- df_postcodes %>%
   left_join(df_county_population) %>%
   left_join(df_county_purchasing_power) %>% 
-  left_join(df_county_consumption_normalized) %>%
-  left_join(df_county_industries_normalized)
+  left_join(df_county_consumption_normalized)
 
 
 # Combine smart electricity meters data with the postcodes dataset
@@ -92,11 +88,6 @@ df_electricity <- df_elect %>%
 geojson_data <- st_read("data/01-input/portugal-with-regions.geojson")
 # County
 geojson_county <- st_read("data/01-input/portugal-with-counties.geojson")
-
-
-### Load weather data
-df_weather <- read.csv("data/02-preprocessed/weather-preprocessed.csv")
-
 
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -466,10 +457,11 @@ ggplot_domestic_energy_map <- ggplot(my_sf_merged) +
   labs(x = "Longitude",
        y = "Latitude",
        title = "Domestic",
-       fill = "Percentage [%]:") +
+       fill = "Pct [%]:") +
   theme_void() +
   scale_fill_distiller(palette = "RdBu", direction = -1) +
-  theme(legend.position = "right") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5)) +
   ggrepel::geom_label_repel(data = my_sf_merged %>%
                               arrange(desc(mean_domestic)) %>%  # Sort in descending order
                               slice_head(n = 5),  # Select the top 5 rows
@@ -485,10 +477,11 @@ ggplot_not_domestic_energy_map <- ggplot(my_sf_merged) +
   labs(x = "Longitude",
        y = "Latitude",
        title = "Not domestic",
-       fill = "Percentage [%]:") +
+       fill = "Pct [%]:") +
   theme_void() +
   scale_fill_distiller(palette = "RdBu", direction = -1) +
-  theme(legend.position = "right") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5)) +
   ggrepel::geom_label_repel(data = my_sf_merged %>%
                               arrange(desc(mean_not_domestic)) %>%  # Sort in descending order
                               slice_head(n = 5),  # Select the top 5 rows
@@ -504,10 +497,11 @@ ggplot_industry_energy_map <- ggplot(my_sf_merged) +
   labs(x = "Longitude",
        y = "Latitude",
        title = "Industry",
-       fill = "Percentage [%]:") +
+       fill = "Pct [%]:") +
   theme_void() +
   scale_fill_distiller(palette = "RdBu", direction = -1) +
-  theme(legend.position = "right") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5)) +
   ggrepel::geom_label_repel(data = my_sf_merged %>%
                               arrange(desc(mean_industry)) %>%  # Sort in descending order
                               slice_head(n = 5),  # Select the top 5 rows
@@ -523,10 +517,11 @@ ggplot_agriculture_energy_map <- ggplot(my_sf_merged) +
   labs(x = "Longitude",
        y = "Latitude",
        title = "Agriculture",
-       fill = "Percentage [%]:") +
+       fill = "Pct [%]:") +
   theme_void() +
   scale_fill_distiller(palette = "RdBu", direction = -1) +
-  theme(legend.position = "right") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5)) +
   ggrepel::geom_label_repel(data = my_sf_merged %>%
                               arrange(desc(mean_agriculture)) %>%  # Sort in descending order
                               slice_head(n = 5),  # Select the top 5 rows
@@ -541,7 +536,7 @@ combined_ggplot_shares_energy <- grid.arrange(ggplot_domestic_energy_map,
                                               ggplot_not_domestic_energy_map,
                                               ggplot_industry_energy_map,
                                               ggplot_agriculture_energy_map,
-                                              ncol = 2)
+                                              ncol = 4)
 combined_ggplot_shares_energy
 
 ggsave(filename = "figures/combined-shares-energy.png", plot = combined_ggplot_shares_energy, width = 8, height = 6, dpi = 300)
@@ -551,7 +546,7 @@ ggsave(filename = "figures/combined-shares-energy.png", plot = combined_ggplot_s
 
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# PLOT STANDARDIZED TIME SERIES (CLUSTERS) ----
+# PLOT CLUSTERS MAPPING ----
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 df_cluster_county <- df_electricity %>%
@@ -566,23 +561,75 @@ my_sf_merged <- geojson_county %>%
 
 
 
-plt_cluster_map <- ggplot(my_sf_merged) +
-  geom_sf(aes(fill = as.factor(centroid))) +
-  labs(
-    x = "Longitude",
-    y = "Latitude",
-    fill = "Cluster:"
-  ) +
-  theme_classic() +
-  scale_fill_viridis(discrete = TRUE) +
-  theme(
-    legend.position = "bottom",
-    legend.background = element_rect(colour = "black")
-  )
+plt_cluster1_map <- ggplot(my_sf_merged) +
+  geom_sf(aes(fill = centroid == 1),
+          color = "#696969") +
+  scale_fill_manual(values = c("TRUE" = "#440154", "FALSE" = "#DCDCDC")) +
+  labs(title = "Cluster 1") +
+  theme_void() +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
 
-plt_cluster_map
+plt_cluster1_map
 
-ggsave(filename = "figures/plt_cluster_map.png", plot = plt_cluster_map, width = 8, height = 6, dpi = 300)
+
+plt_cluster2_map <- ggplot(my_sf_merged) +
+  geom_sf(aes(fill = centroid == 2), 
+          color = "#696969") +
+  scale_fill_manual(values = c("TRUE" = "#3b528b", "FALSE" = "#DCDCDC")) +
+  labs(title = "Cluster 2") +
+  theme_void() +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
+
+plt_cluster2_map
+
+
+plt_cluster3_map <- ggplot(my_sf_merged) +
+  geom_sf(aes(fill = centroid == 3), 
+          color = "#696969") +
+  scale_fill_manual(values = c("TRUE" = "#21918c", "FALSE" = "#DCDCDC")) +
+  labs(title = "Cluster 3") +
+  theme_void() +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
+
+plt_cluster3_map
+
+
+plt_cluster4_map <- ggplot(my_sf_merged) +
+  geom_sf(aes(fill = centroid == 4),
+          color = "#696969") +
+  scale_fill_manual(values = c("TRUE" = "#5ec962", "FALSE" = "#DCDCDC")) +
+  labs(title = "Cluster 4") +
+  theme_void() +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
+
+plt_cluster4_map
+
+
+plt_cluster5_map <- ggplot(my_sf_merged) +
+  geom_sf(aes(fill = centroid == 5),
+          color = "#696969") +
+  scale_fill_manual(values = c("TRUE" = "#fde725", "FALSE" = "#DCDCDC")) +
+  labs(title = "Cluster 5") +
+  theme_void() +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
+
+plt_cluster5_map
+
+
+combined_clusters_map <- grid.arrange(plt_cluster1_map,
+                                      plt_cluster2_map,
+                                      plt_cluster3_map,
+                                      plt_cluster4_map,
+                                      plt_cluster5_map,
+                                      ncol = 5)
+combined_clusters_map
+
+ggsave(filename = "figures/combined_clusters_map.png", plot = combined_clusters_map, width = 8, height = 6, dpi = 300)
 
 
 
@@ -617,22 +664,55 @@ plt_cluster_district
 ggsave(filename = "figures/plt_cluster_district.png", plot = plt_cluster_district, width = 8, height = 6, dpi = 300)
 
 
-### ------------------------------------------------------------------------
-# RANGER
-### ------------------------------------------------------------------------
 
-# library(ranger)
-# library(tidyverse)
-# 
-# # Assuming df has a column 'cluster' with assigned cluster labels
-# df$cluster <- as.factor(df$cluster)  # Convert cluster to factor for classification
-# 
-# # Train a random forest model
-# rf_model <- ranger(cluster ~ ., data = df, importance = 'impurity')
-# 
-# # Get variable importance
-# importance <- as.data.frame(rf_model$variable.importance)
-# importance <- importance %>% arrange(desc(rf_model$variable.importance))
-# 
-# # Print importance
-# print(importance)
+
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# CLUSTERS AND THERE REASONS ----
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+df_cluster_type <- df_electricity %>% 
+  group_by(postcodes) %>% 
+  reframe(centroid = factor(mean(centroid), levels = c(1,2,3,4,5)),
+          population_numbers = mean(population_numbers),
+          agriculture = mean(agriculture),
+          industry = mean(industry),
+          not_domestic = mean(not_domestic),
+          domestic = mean(domestic)) %>%
+  # Remove columns you do not want to reshape (e.g., postcodes, population_numbers)
+  select(-postcodes) %>%
+  # Convert from wide to long
+  pivot_longer(cols = c(population_numbers,
+                        agriculture, 
+                        industry,
+                        not_domestic,
+                        domestic),
+               names_to = "sector",
+               values_to = "value")
+
+df_cluster_type$sector[df_cluster_type$sector == "population_numbers"] <- "Population"
+df_cluster_type$sector[df_cluster_type$sector == "agriculture"] <- "Agriculture"
+df_cluster_type$sector[df_cluster_type$sector == "industry"] <- "Industry"
+df_cluster_type$sector[df_cluster_type$sector == "not_domestic"] <- "Not domestic"
+df_cluster_type$sector[df_cluster_type$sector == "domestic"] <- "Domestic"
+
+
+plt_cluster_end_user <- ggplot(df_cluster_type, aes(x = value, y = centroid, fill = centroid)) +
+  geom_violin() +
+  geom_jitter(size = 0.9, height = 0.1) +
+  stat_summary(fun = median,
+               geom = "point",
+               color = "red",
+               size = 3,
+               shape = 16,
+               position = position_dodge(width = 0.9)) +
+  scale_fill_viridis_d() +
+  facet_wrap(~ sector, scales = "free_x", ncol = 2) +
+  labs(x = "Values",
+       y = "Cluster") +
+  theme_bw() +
+  theme(legend.position = "none")
+
+ggsave(filename = "figures/plt_cluster_end_user.png", plot = plt_cluster_end_user, width = 8, height = 6, dpi = 300)
+

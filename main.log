@@ -1,0 +1,14 @@
+
+INFO [2025-02-09 16:55:30] Algorithm started.
+INFO [2025-02-09 16:55:30] All libraries loaded successfully.
+INFO [2025-02-09 16:55:30] Loaded settings.
+INFO [2025-02-09 16:55:30] Preprocessing started.
+INFO [2025-02-09 16:55:32] Loaded files.
+INFO [2025-02-09 17:00:47] Postcodes dataset preprocessed.
+INFO [2025-02-09 17:00:47] The total number postcodes regarding electricity data is preprocessed.
+INFO [2025-02-09 17:00:49] Preprocessing complete.
+INFO [2025-02-09 17:00:49] Clustering started.
+INFO [2025-02-09 17:01:13] Clustering complete.
+INFO [2025-02-09 17:01:13] Analysis and plotting started.
+INFO [2025-02-09 17:02:17] Analysis and plotting completed.
+INFO [2025-02-09 17:02:17] Algorithm complete.

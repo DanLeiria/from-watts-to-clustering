@@ -9,10 +9,11 @@
 # Date:         2025-01-19
 
 # Script name:  func02-kshape.R
-# R version:    4.4.1
- 
+
 # Script Description:
 # Apply the clustering methodology into a specific matrix
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 kshape_clustering <- function(matrix_input,
                               nr_clusters,

@@ -9,13 +9,14 @@
 # Date:         2025-01-19
 
 # Script name:  func01-silhouette-score.R
-# R version:    4.4.1
- 
+
 # Script Description:
 # Function to assess and plot the silhouette scores
 # Applying cvi methods into matrix, in order to find optimal number of clusters
 # In this work, I selected to use the silhouette score method
 # Plot and save the results
+
+### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 silh_score <- function(matrix_input,
                        clusters_interval,

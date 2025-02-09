@@ -8,23 +8,11 @@
 
 # Date:         2025-01-19
 
-# Script name:  00-library
-# R version:    4.4.1
- 
+# Script name:  00-library.R
+
 # Script Description:
 # Setup the packages needed for the specific project.
 
-
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# SETUP ----
-### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-### Description:
-# Clears the console.
-# Remove all variables of the work space.
-
-cat("\014")
-rm(list = ls())
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # LIBRARY ----
@@ -35,9 +23,6 @@ rm(list = ls())
 
 # List of required libraries
 required_libraries <- c(
-
-  # Access the RStudio API
-  "rstudioapi",
   
   # Several important packages
   "tidyverse",
@@ -66,9 +51,6 @@ required_libraries <- c(
   # For maps
   "sf", "maps",
   
-  # Code processing timer
-  "tictoc",
-  
   # Time series clustering algorithms
   "dtwclust",
   
@@ -80,8 +62,7 @@ required_libraries <- c(
   
   # For percentage formatting
   "scales"
-  
-) 
+  ) 
 
 # Install missing libraries automatically
 install_if_missing <- function(packages) {
@@ -107,8 +88,9 @@ if (any(!loaded_libraries)) {
     paste(names(loaded_libraries[!loaded_libraries]), collapse = ", "))
 } else {
   # Clear log file before each run
-  write("", file = "logs/output.log")  
-  flog.appender(appender.file("logs/output.log")) 
+  write("", file = "main.log")  
+  flog.appender(appender.file("main.log")) 
+  flog.info("Algorithm started.")
   flog.info("All libraries loaded successfully.")
 }
 

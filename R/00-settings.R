@@ -9,8 +9,7 @@
 # Date:         2025-01-19
 
 # Script name:  00-settings.R
-# R version:    4.4.1
- 
+
 # Script Description:
 # Settings used in the project
 
@@ -33,4 +32,3 @@ clusters_interval <- 2:20L
 beta_val_calikus <- 3
 # SBD threshold for outlier assignment applied in the final solution
 sbd_limit_used <- 0.21
-
