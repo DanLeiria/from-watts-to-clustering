@@ -31,6 +31,9 @@ source("R/00-library.R")
 source("R/00-settings.R")
 flog.info("Loaded settings.")
 
+# Directory tree in R
+fs::dir_tree(path = ".", recurse = 1)
+
 flog.info("Preprocessing started.")
 source("R/01-data-preprocessing.R")
 flog.info("Preprocessing complete.")

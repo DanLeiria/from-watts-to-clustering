@@ -61,7 +61,10 @@ required_libraries <- c(
   "stringi",
   
   # For percentage formatting
-  "scales"
+  "scales",
+  
+  # Quarto files
+  "quarto"
   ) 
 
 # Install missing libraries automatically
@@ -99,8 +102,4 @@ if (any(!loaded_libraries)) {
 # Set all locale settings to English.
 Sys.setenv(LANG = "en")
 Sys.setlocale("LC_ALL", "en_US.UTF-8")
-
-
-# Directory tree in R
-# fs::dir_tree(path = ".", recurse = 1)
 

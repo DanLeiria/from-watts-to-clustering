@@ -716,3 +716,4 @@ plt_cluster_end_user <- ggplot(df_cluster_type, aes(x = value, y = centroid, fil
 
 ggsave(filename = "figures/plt_cluster_end_user.png", plot = plt_cluster_end_user, width = 8, height = 6, dpi = 300)
 
+

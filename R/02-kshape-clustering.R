@@ -20,8 +20,8 @@
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Call functions
-source("R/src/func01-silhouette-score.R")
-source("R/src/func02-kshape.R")
+source("R/utils/func01-silhouette-score.R")
+source("R/utils/func02-kshape.R")
 
 ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # LOAD PREPROCESSED DATA ----
