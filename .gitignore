@@ -1,7 +1,5 @@
 # Ignore renv library files
-/renv/library/
-/renv/staging/
-/renv/extdata/
+renv/
 
 # Ignore R temporary files
 .Rhistory
