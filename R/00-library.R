@@ -63,7 +63,7 @@ required_libraries <- c(
   # For percentage formatting
   "scales",
   
-  # Quarto files
+  # Quarto
   "quarto"
   ) 
 

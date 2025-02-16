@@ -226,7 +226,7 @@ plt_total_energy_map <- ggplot(sf_district_energy) +
   ylim(36.7, 42) +
   labs(x = "Longitude",
        y = "Latitude",
-       fill = "Yearly energy \nusage [TW]:") +
+       fill = "Yearly energy \nusage [TWh]:") +
   theme_classic() +
   scale_fill_distiller(palette = "RdBu", direction = -1) +
   theme(legend.position = "bottom",
@@ -259,7 +259,7 @@ plt_total_energy_district <- sf_district_energy %>%
   ) +
   labs(
     x = "District",
-    y = "Yearly energy usage [TW]"
+    y = "Yearly energy usage [TWh]"
   )
 
 plt_total_energy_district
@@ -319,7 +319,7 @@ ggplot_corr_energy_purchase <- ggplot(df_data,
         panel.grid.minor.y = element_line(color = "grey", linewidth = 0.2, linetype = "dashed")) +
   labs(x = "Total purchasing power per capita (log)",
        y = "Total energy usage in kWh per capita (log)",
-       fill = "Yearly energy \nusage [TW]:",
+       fill = "Yearly energy \nusage [TWh]:",
        size = "District \npopulation:")
 
 ggplot_corr_energy_purchase
@@ -370,7 +370,7 @@ ggplot_corr_district_energy_purchase <- ggplot(df_data,
         panel.grid.minor.y = element_line(color = "grey", linewidth = 0.2, linetype = "dashed")) +
   labs(x = "Total purchasing power per capita (log)",
        y = "Total energy usage in kWh per capita of the district (log)",
-       fill = "Yearly energy \nusage [TW]:",
+       fill = "Yearly energy \nusage [TWh]:",
        size = "District \npopulation:")
 
 ggplot_corr_district_energy_purchase

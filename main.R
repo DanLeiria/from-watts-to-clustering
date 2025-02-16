@@ -23,8 +23,14 @@
 # Clears the console
 # Remove all variables of the work space
 cat("\014")
-rm(list = ls())
+suppressWarnings(rm(list = ls()))
 
+# Start Execution Timer
+start_time <- Sys.time()
+
+# Ensure renv is installed, then restore dependencies
+if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+renv::restore()
 
 # Call project libraries and settings
 source("R/00-library.R")
@@ -48,4 +54,7 @@ flog.info("Analysis and plotting completed.")
 
 flog.info("Algorithm complete.")
 
+# Execution Time
+end_time <- Sys.time()
+flog.info(paste("Total execution time:", round(difftime(end_time, start_time, units = "secs"), 2), "seconds"))
 

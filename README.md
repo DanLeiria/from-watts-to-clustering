@@ -8,7 +8,7 @@ This repository contains a complete workflow for analyzing electricity usage in 
 Energy distribution management; Clustering algorithms; Customers segmentation; Electricity consumption; Machine learning; Regional consumption patterns.
 
 ## Medium article:
-The full Medium article can be accessed in here: **LINK**
+The full Medium article can be accessed in here: [Medium article](https://medium.com/@DanLeiria/from-watts-to-clusters-portugals-electricity-usage-unveiled-2f080e64afd2)
 
 ## Directory tree:
 This project has the following directory structure and the next sections attempt to explain them. 
@@ -29,7 +29,7 @@ This project has the following directory structure and the next sections attempt
 │   ├── 01-data-preprocessing.R
 │   ├── 02-kshape-clustering.R
 │   ├── 03-analysis-and-visualization.R
-│   └── \src
+│   └── \utils
 ├── README.md
 ├── \renv
 └── renv.lock
@@ -81,7 +81,7 @@ Functions created for this project and source by the scripts in R/.
 - ``func02-kshape.R``: Perform the k-shape clustering.
 
 ## Folder: renv
-Project dependency management using the **renv** package. Contains:
+Project dependency management using the **renv** package, it contains:
 - renv.lock file listing exact package versions used in the project.
 - The local renv library with project-specific installed packages.
 

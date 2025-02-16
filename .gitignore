@@ -1,4 +1,21 @@
-.Rproj.user
+# Ignore renv library files
+/renv/library/
+/renv/staging/
+/renv/extdata/
+
+# Ignore R temporary files
 .Rhistory
 .RData
-.Ruserdata
+.Rproj.user/
+
+# Ignore log files
+*.log
+
+# Ignore other temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore personal configuration files
+*.Rproj
