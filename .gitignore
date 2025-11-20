@@ -1,19 +1,23 @@
-# Ignore renv library files
+### Ignore renv library files
 renv/
 
-# Ignore R temporary files
+### Ignore R temporary files
 .Rhistory
 .RData
 .Rproj.user/
 
-# Ignore log files
+### Ignore log files
 *.log
 
-# Ignore other temporary files
+### Ignore other temporary files
 *.tmp
 *.swp
 *.bak
 *.old
 
-# Ignore personal configuration files
+### Ignore personal configuration files
 *.Rproj
+
+### Ignore presentation files
+*.pptx
+*.key
